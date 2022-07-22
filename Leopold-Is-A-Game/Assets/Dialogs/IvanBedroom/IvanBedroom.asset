@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: IvanBedroom
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: cb3fe94d2bf6b634ab584bde231abcd6, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 43a2846a692fbae4aa7de676b5658a4a, type: 2}
+  - {fileID: 11400000, guid: c0222a2c6a5b72b45aa4683a84164e7b, type: 2}
