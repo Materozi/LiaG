@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Leopold-House
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: b61109e4067ab8b4b82b0a5834d453d9, type: 2}
+  - {fileID: 11400000, guid: 5e42835b1ff2ca84688f32c4c247c6ea, type: 2}
+  - {fileID: 11400000, guid: 25b72e178e2898740b4f719067702e09, type: 2}
+  - {fileID: 11400000, guid: fa2930feb7493c44e9055c3d534d34f6, type: 2}
+  - {fileID: 11400000, guid: 8f768ad9e3d185c45ababc88e4e56195, type: 2}
+  - {fileID: 11400000, guid: 2ebb5a11a0279064a909ea8cec9ad9f0, type: 2}
+  - {fileID: 11400000, guid: a6f48a1c792117f48aabb243834fbd33, type: 2}
+  - {fileID: 11400000, guid: e83d86b422742414d870c4f46fa33ef7, type: 2}
+  - {fileID: 11400000, guid: 1d4fc226d61b75a4ca63da353dc2fbe9, type: 2}
+  - {fileID: 11400000, guid: 8a488af5fe5941f4ea357b8f60729831, type: 2}
+  - {fileID: 11400000, guid: d127064136392d7489086bb31a21f035, type: 2}
+  - {fileID: 11400000, guid: cc7f08bb26f6bd94fa249efab2194148, type: 2}
+  - {fileID: 11400000, guid: 03bed7ab32c3b0c4f8247dc353b53d65, type: 2}
+  - {fileID: 11400000, guid: c966ea0a68ce0364fac0f1b93ca0bab6, type: 2}
+  - {fileID: 11400000, guid: 12c1f2ee61e183146b9739b67da9fc4f, type: 2}

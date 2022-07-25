@@ -7,6 +7,8 @@ public class Characters
         switch (chara)
         {
             case Character.NARATOR: return "";
+            case Character.S_L: return "Sœur de Leopold";
+            case Character.NOPE: return "???";
             default: return chara.ToString();
         }
     }
