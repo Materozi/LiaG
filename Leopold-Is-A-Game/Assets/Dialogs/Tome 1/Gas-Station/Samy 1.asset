@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Samy 1
+  m_EditorClassIdentifier: 
+  charaState: 0
+  charaSide: 0
+  chara: 2
+  text: "Oui, c\u2019est tr\xE8s bien, mais l\xE0 tu vois on enqu\xEAte sur une disparition,
+    donc je pense qu\u2019on pourrait mettre le travail scolaire de c\xF4t\xE9 un
+    week-end, et se pencher sur la potentielle fin du monde annonc\xE9e lors d\u2019un
+    jeu sexuel douteux."
+  audioEffect: {fileID: 0}

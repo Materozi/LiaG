@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Yann 7
+  m_EditorClassIdentifier: 
+  charaState: 0
+  charaSide: 1
+  chara: 15
+  text: "C\u2019est ainsi que fut fond\xE9 l\u2019Amlaetxhis. \xC9videmment, pour
+    contrer l\u2019influence du hentai, un contre-pouvoir fut cr\xE9\xE9 : le Sophisme.
+    Ce mouvement avait pour but de promouvoir les relations r\xE9elles, afin d\u2019\xE9viter
+    que la population mondiale se transforme en otaku nolife."
+  audioEffect: {fileID: 0}

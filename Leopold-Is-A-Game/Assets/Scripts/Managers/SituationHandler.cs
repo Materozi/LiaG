@@ -68,7 +68,7 @@ public class SituationHandler : MonoBehaviour
 
         if (dialogIndex >= situation.dialogs.Count)
         {
-            storyHandler.SendNextSituation();
+            storyHandler.SendNextSituation(situation.visualEffect);
             dialogIndex = -1;
         }
         else 

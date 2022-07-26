@@ -10,7 +10,7 @@ public class StoryHandler : MonoBehaviour
     public SituationHandler situationHandler;
 
     int situationIndex = -1;
-
+     
     public bool isFading = false;
 
     public Fader fader;
@@ -20,10 +20,18 @@ public class StoryHandler : MonoBehaviour
         SendNextSituation();
     }
 
-    public void SendNextSituation() 
+    public void SendNextSituation(Animation effect = null) 
     {
         situationIndex++;
-        StartCoroutine(FadeScreen());
+        if (effect)
+        {
+            effect.Play();
+            situationHandler.SetSituation(story.situations[situationIndex]);
+        }
+        else 
+        {
+            StartCoroutine(FadeScreen());
+        }
     }
 
     IEnumerator FadeScreen()

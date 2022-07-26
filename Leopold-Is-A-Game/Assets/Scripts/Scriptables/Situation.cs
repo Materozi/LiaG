@@ -11,4 +11,6 @@ public class Situation : ScriptableObject
     public Sprite backgroud = null;
     // left  group dialogs
     public List<Dialog> dialogs = new List<Dialog>();
+    // Visual effect if needed
+    public Animation visualEffect = null;
 }

@@ -24,6 +24,15 @@ public enum Character
     NOPE,
     S_L,
     BAZINE,
+    ALEXIS,
+    MATEO,
+    XYDOE,
+    MAELLE,
+    YANN,
+    ADEN,
+    SOPHIANE,
+    AUGUSTIN,
+    ANTOINE,
 };
 
 public enum CharaSide 

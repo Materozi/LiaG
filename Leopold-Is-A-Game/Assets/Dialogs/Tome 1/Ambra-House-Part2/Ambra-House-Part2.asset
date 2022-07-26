@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Ambra-House-Part2
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 9d79569b31e0d3f43a30afb744422e96, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 661cbafd729f64a4084b9ca0a3ea7509, type: 2}
+  - {fileID: 11400000, guid: 6fd19d3e70c64934faf61e101f654733, type: 2}
+  - {fileID: 11400000, guid: ccc51e3e810785e419cf62d01e6d688a, type: 2}
+  - {fileID: 11400000, guid: 0c9a39609b754614ba4b3513258b8cbc, type: 2}
+  - {fileID: 11400000, guid: bb6b4732e1d080341a2920ddcfaaa783, type: 2}
+  - {fileID: 11400000, guid: e9055ad9b347f0741b7315fda0c96af0, type: 2}
+  - {fileID: 11400000, guid: f4d158894641ec04bb52e982b5e8e0e2, type: 2}
+  - {fileID: 11400000, guid: 4eb9499dc5aa4fc4bbf6d6000812f607, type: 2}
+  - {fileID: 11400000, guid: fcd4f29aa27d6ff44b6b0c33c3861c63, type: 2}
+  - {fileID: 11400000, guid: 014624b2fd526234db71016ae58d9826, type: 2}
+  - {fileID: 11400000, guid: 86d0ccd711532ee4b971c72871d5747b, type: 2}
+  - {fileID: 11400000, guid: 14c109ddc72cd5a4eb35c71849656762, type: 2}
+  - {fileID: 11400000, guid: b1ab66ca6a5cd6844ad60117758da645, type: 2}
+  - {fileID: 11400000, guid: 6e92eddf5d0063f41966e065b8a1b8f1, type: 2}
+  - {fileID: 11400000, guid: 3d38bd323d5b1474da13a5116ac34b86, type: 2}
+  - {fileID: 11400000, guid: ce694251ff45e034aa94715a6b50642c, type: 2}
+  - {fileID: 11400000, guid: 736d29632c47b4b49b12755759856057, type: 2}

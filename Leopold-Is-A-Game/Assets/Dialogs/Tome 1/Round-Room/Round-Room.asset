@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Round-Room
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 4a31a761874dcd94ba43887e2c7e69ed, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 3990eb3a26b8a1645b74d54a4db43e0e, type: 2}
+  - {fileID: 11400000, guid: 9858d6a56bf747d4e9a9cc3e9dd398cf, type: 2}
+  - {fileID: 11400000, guid: 1e312bcf48642b74c920bd3d7e753dfd, type: 2}
+  - {fileID: 11400000, guid: f73615071fb6a4a49a48c97126937429, type: 2}
+  - {fileID: 11400000, guid: acaaaba83b9b77e458f401d4dbb67288, type: 2}
+  - {fileID: 11400000, guid: ae6988a3e2ec1e740b360d6ab00df2d1, type: 2}
+  - {fileID: 11400000, guid: 9adf27f8eeab91743a9383360cc8187f, type: 2}
+  - {fileID: 11400000, guid: c36c99bc3f765ea4a8e82cff904a953d, type: 2}
+  - {fileID: 11400000, guid: 69ce950fe36ed564686fe5af6202778e, type: 2}
+  - {fileID: 11400000, guid: 8062e5a215ec1e14c964772dfbc874a1, type: 2}
+  - {fileID: 11400000, guid: 33de6c3c627b5ee4d96a2d0c8e96bb4a, type: 2}
+  - {fileID: 11400000, guid: 1cdd8de5c88aedb4e996b969420e3d76, type: 2}
+  - {fileID: 11400000, guid: 4356a44cbfb663c4d9a76b1cb547e1c1, type: 2}
+  - {fileID: 11400000, guid: a9aea106cc97b63459d3d6950bb5a703, type: 2}
+  - {fileID: 11400000, guid: 6c48300f0b2652740a24c93321389929, type: 2}
+  - {fileID: 11400000, guid: 11e14e6d34a40af4e8fa65901744f0f2, type: 2}
+  - {fileID: 11400000, guid: 2eea3a56d3e5bed4bb2d0a102c30b766, type: 2}
+  - {fileID: 11400000, guid: 10ec3d4809bf6d64aa5ae89fddd35938, type: 2}
+  visualEffect: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Yann 9
+  m_EditorClassIdentifier: 
+  charaState: 0
+  charaSide: 1
+  chara: 15
+  text: "C\u2019est tout simplement pour te prot\xE9ger Ivan. Et tu n\u2019avais
+    rien remarqu\xE9 ? A ton avis, pourquoi il n\u2019arr\xEAtait pas de crier \xAB
+    SOPHIE \xBB ? Mais maintenant que tu sais tout, tu vas devoir choisir un camp,
+    et nous connaissons tous ton go\xFBt prononc\xE9 pour le furry\u2026"
+  audioEffect: {fileID: 0}
