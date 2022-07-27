@@ -13,6 +13,8 @@ public class TextWrittingEffect : MonoBehaviour
     public int textIndex = 0;
     public TMPro.TextMeshProUGUI textField;
 
+    public TextSoundEffect sf = null;
+
     public bool isWriting = false;
 
     void Start()
@@ -47,8 +49,14 @@ public class TextWrittingEffect : MonoBehaviour
             }
 
             timeUntilNextCharacter = 0f;
+            
             if (textIndex < fullText.Length) 
+            {
                 textField.text += fullText[textIndex];
+                //if (textIndex % 7 == 0)
+                    sf.PlayRandomSound();    
+            }
+            
             textIndex++;
         }
         isWriting = false;

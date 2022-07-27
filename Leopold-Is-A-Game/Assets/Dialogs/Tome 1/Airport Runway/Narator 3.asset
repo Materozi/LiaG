@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Narator 3
+  m_EditorClassIdentifier: 
+  charaState: 0
+  charaSide: 2
+  chara: 3
+  text: "Malheureusement, son attention \xE9tait port\xE9e sur son regard, et il
+    ne put voir le tentacule qui lui agrippa fermement la jambe. Il n\u2019eut \xE0
+    peine le temps d\u2019\xEAtre surpris, qu\u2019il fut lev\xE9 \xE0 plusieurs
+    m\xE8tres du sol. Il sentit alors le bout d\u2019un tentacule se glisser sous
+    son T-shirt."
+  audioEffect: {fileID: 0}

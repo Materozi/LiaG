@@ -13,7 +13,7 @@ public class SituationHandler : MonoBehaviour
     List<Character> leftCharacters = new List<Character>();
     List<Character> rightCharacters = new List<Character>();
 
-    int dialogIndex = -1;
+    public int dialogIndex = -1;
 
 
     private void Start()
@@ -27,7 +27,8 @@ public class SituationHandler : MonoBehaviour
         situation = _situation;
         PopulateChibis();
         display.DisplaySituation(situation);
-        SendNextDialog();
+        if (!situation.hasVisualEffect)
+            SendNextDialog();
     }
 
     void PopulateChibis()
@@ -62,13 +63,13 @@ public class SituationHandler : MonoBehaviour
         }
     }
 
-    void SendNextDialog() 
+    public void SendNextDialog() 
     {
         dialogIndex++;
 
         if (dialogIndex >= situation.dialogs.Count)
         {
-            storyHandler.SendNextSituation(situation.visualEffect);
+            storyHandler.SendNextSituation();
             dialogIndex = -1;
         }
         else 

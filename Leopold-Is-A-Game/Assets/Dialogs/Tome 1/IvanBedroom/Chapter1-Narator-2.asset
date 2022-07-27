@@ -16,5 +16,5 @@ MonoBehaviour:
   charaSide: 2
   chara: 3
   text: "D\xE9j\xE0 la troisi\xE8me fois que le r\xE9veil d\u2019Ivan sonnait. Il
-    jeta un regard furtif"
+    jeta un regard furtif :"
   audioEffect: {fileID: 0}

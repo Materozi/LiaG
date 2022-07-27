@@ -14,18 +14,19 @@ public class StoryHandler : MonoBehaviour
     public bool isFading = false;
 
     public Fader fader;
+    public Animator animator;
 
     private void Start()
     {
         SendNextSituation();
     }
 
-    public void SendNextSituation(Animation effect = null) 
+    public void SendNextSituation() 
     {
         situationIndex++;
-        if (effect)
+        if (story.situations[situationIndex].hasVisualEffect)
         {
-            effect.Play();
+            animator.SetTrigger(story.situations[situationIndex].ToString());
             situationHandler.SetSituation(story.situations[situationIndex]);
         }
         else 

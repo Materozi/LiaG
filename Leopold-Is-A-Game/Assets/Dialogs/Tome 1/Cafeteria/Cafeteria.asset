@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Cafeteria
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 8d7ba927cb7a5ff4d9729452ae8913ae, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 2668c3b74c0d40e428877af23147714a, type: 2}
+  - {fileID: 11400000, guid: 4f271fb05850cc440b592ac8c4f67039, type: 2}
+  - {fileID: 11400000, guid: 700dc69344f260b41bbbc831a8417706, type: 2}
+  - {fileID: 11400000, guid: 61fc368cc3f8d654f905d4a1e27ffbf4, type: 2}
+  - {fileID: 11400000, guid: b9a43fd20fc4d284c874ded5c1b455cd, type: 2}
+  - {fileID: 11400000, guid: 018a4bddfa509f34e9dbe7f21321c918, type: 2}
+  - {fileID: 11400000, guid: 9f33f9757b130c54388f0cff91a3fcb7, type: 2}
+  - {fileID: 11400000, guid: ec5ef16106179aa48a6f04dffbf48ee9, type: 2}
+  - {fileID: 11400000, guid: 520aac04b063ad14285965fc96ef9a80, type: 2}
+  - {fileID: 11400000, guid: 8ff201e0ef38c7d46ae276693555c198, type: 2}
+  - {fileID: 11400000, guid: f88f1c9459cafb94f9cf915fd5158a15, type: 2}
+  - {fileID: 11400000, guid: d188e88454d5fae499995c43000156dd, type: 2}
+  - {fileID: 11400000, guid: b0ea01225e135d4448e2dd84f85bd1cb, type: 2}
+  - {fileID: 11400000, guid: 90c2b517a826aa7418055f087cdbbce4, type: 2}
+  - {fileID: 11400000, guid: fa519c048c5ec9a4dab2519783db5f84, type: 2}
+  hasVisualEffect: 0
+  sound: {fileID: 0}

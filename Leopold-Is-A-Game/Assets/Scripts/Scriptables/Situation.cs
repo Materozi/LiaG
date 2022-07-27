@@ -12,5 +12,7 @@ public class Situation : ScriptableObject
     // left  group dialogs
     public List<Dialog> dialogs = new List<Dialog>();
     // Visual effect if needed
-    public Animation visualEffect = null;
+    public bool hasVisualEffect = false;
+    // Played Audio
+    public AudioClip ambiantMusic; 
 }

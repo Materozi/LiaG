@@ -14,8 +14,9 @@ public class SituationDisplayer : MonoBehaviour
     public TMPro.TextMeshProUGUI text      = null;
     public TMPro.TextMeshProUGUI charaName = null;
 
-    public AudioSource audioSource;
     public TextWrittingEffect textWriting = null;
+
+    public Animator visualEffecter = null;
 
     public bool IsWriting => textWriting.isWriting;
 
@@ -24,26 +25,37 @@ public class SituationDisplayer : MonoBehaviour
         background.sprite = situation.backgroud;
     }
 
-    public void DisplayDialog(Dialog dialog)
+    public void DisplayText(Dialog dialog)
     {
         leftChibi.color = Fader.Clear;
         rightChibi.color = Fader.Clear;
 
         if (dialog.charaSide == CharaSide.LEFT)
         {
-            leftChibi.color  = Fader.Opaque;
+            leftChibi.color = Fader.Opaque;
             leftChibi.sprite = Characters.GetCharacterSprite(dialog.chara);
         }
         else if (dialog.charaSide == CharaSide.RIGHT)
         {
-            rightChibi.color  = Fader.Opaque;
+            rightChibi.color = Fader.Opaque;
             rightChibi.sprite = Characters.GetCharacterSprite(dialog.chara);
         }
 
         charaName.text = Characters.GetCharacterName(dialog.chara);
         textWriting.InitializeWriting(dialog.text);
-        
+
         if (dialog.audioEffect)
-            audioSource.PlayOneShot(dialog.audioEffect);
+            SoundManager.PlayDialogSound(dialog.audioEffect);
+    }
+    public void DisplayDialog(Dialog dialog)
+    {
+        if (dialog.hasVisualEffect)
+        {
+            visualEffecter.SetTrigger(dialog.ToString());
+        }
+        else 
+        {
+            DisplayText(dialog);
+        }    
     }
 }

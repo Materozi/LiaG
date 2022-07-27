@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Narator 19
+  m_EditorClassIdentifier: 
+  charaState: 0
+  charaSide: 2
+  chara: 3
+  text: "Il rentra alors son sexe dans le trou \xE9troit d\u2019Ivan. Celui-ci se
+    mit \xE0 g\xE9mir, ce qui excita d\u2019avantage L\xE9opold. Il se mit \xE0 bouger
+    au bout de quelques minutes, ce qui lui procura un plaisir intense, qui ne dura
+    que quelques minutes puisque L\xE9opold \xE9tait pr\xE9coce."
+  audioEffect: {fileID: 0}

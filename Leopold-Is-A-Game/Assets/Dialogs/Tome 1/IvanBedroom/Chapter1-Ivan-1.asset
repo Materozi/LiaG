@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Chapter1-Ivan-1
   m_EditorClassIdentifier: 
   charaState: 0
-  chara: 0
+  charaSide: 2
+  chara: 3
   text: 8h15. Wait... 8h15 ??
+  audioEffect: {fileID: 0}

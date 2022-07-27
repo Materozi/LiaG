@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
   m_Name: Airport
   m_EditorClassIdentifier: 
-  backgroud: {fileID: 0}
+  backgroud: {fileID: 21300000, guid: 3e0d77f960648524b9bbb7b9e0edc29e, type: 3}
   dialogs:
   - {fileID: 11400000, guid: 72e985f55880fd646a70cb36d7e459f1, type: 2}
   - {fileID: 11400000, guid: 00783644f0e748048aa17d67c3b7d8f5, type: 2}

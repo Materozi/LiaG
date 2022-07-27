@@ -33,6 +33,7 @@ public enum Character
     SOPHIANE,
     AUGUSTIN,
     ANTOINE,
+    MATHIS,
 };
 
 public enum CharaSide 
@@ -50,4 +51,5 @@ public class Dialog : ScriptableObject
     public Character  chara;
     public string     text;
     public AudioClip  audioEffect;
+    public bool       hasVisualEffect;
 };
