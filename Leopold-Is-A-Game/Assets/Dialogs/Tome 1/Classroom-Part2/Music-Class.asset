@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Music-Class
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: fb3467a1bf9e52c4b9b774ef224d6934, type: 2}
+  - {fileID: 11400000, guid: cdea8f525e23a7446a6bb330a3f1d86a, type: 2}
+  - {fileID: 11400000, guid: aa252825280de1b43970837900fbec17, type: 2}
+  - {fileID: 11400000, guid: 1bec0ea18165c4c419b6d0d83a5f5edf, type: 2}
+  - {fileID: 11400000, guid: 14b0cbc113f960b4e998713d92d51fe5, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 323162be7131a2346b1af5f4003fbcb7, type: 3}
+  ignoreTransition: 0

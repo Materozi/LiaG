@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Mateo-Door
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: f4547d167023b6946b9fb2dd456bbea4, type: 2}
+  - {fileID: 11400000, guid: 681e7fa1576503d46ae957cbbdbd0766, type: 2}
+  - {fileID: 11400000, guid: c1f2bc9c08a3c2b40b045d28ab106325, type: 2}
+  - {fileID: 11400000, guid: ec7ea897eee91d948a99db7e65006177, type: 2}
+  - {fileID: 11400000, guid: a6ee182b0fea44b4d9b53eab239a2a5c, type: 2}
+  - {fileID: 11400000, guid: 03c94621fe58dfb4e914ca809d3d7061, type: 2}
+  - {fileID: 11400000, guid: e4722bba49e0037439cc9512b0aad05d, type: 2}
+  - {fileID: 11400000, guid: adfb065ba344a9c4ab2c37e535b1fe36, type: 2}
+  - {fileID: 11400000, guid: 5c7e51e1ce1eff34783c72c15c4376cd, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 21e2f90370925ba42a0dd7d5b4a36e6b, type: 3}
+  ignoreTransition: 0

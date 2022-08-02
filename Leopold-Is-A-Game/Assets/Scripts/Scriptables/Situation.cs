@@ -14,5 +14,7 @@ public class Situation : ScriptableObject
     // Visual effect if needed
     public bool hasVisualEffect = false;
     // Played Audio
-    public AudioClip ambiantMusic; 
+    public AudioClip ambiantMusic;
+    // transition
+    public bool ignoreTransition = false;
 }

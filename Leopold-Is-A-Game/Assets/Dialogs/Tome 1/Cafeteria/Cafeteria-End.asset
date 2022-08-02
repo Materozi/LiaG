@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Cafeteria-End
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 8d7ba927cb7a5ff4d9729452ae8913ae, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 520aac04b063ad14285965fc96ef9a80, type: 2}
+  - {fileID: 11400000, guid: 8ff201e0ef38c7d46ae276693555c198, type: 2}
+  - {fileID: 11400000, guid: f88f1c9459cafb94f9cf915fd5158a15, type: 2}
+  - {fileID: 11400000, guid: d188e88454d5fae499995c43000156dd, type: 2}
+  - {fileID: 11400000, guid: b0ea01225e135d4448e2dd84f85bd1cb, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 323162be7131a2346b1af5f4003fbcb7, type: 3}
+  ignoreTransition: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Cafeteria-Romance
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 8d7ba927cb7a5ff4d9729452ae8913ae, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 880d341ef6f96bc4390dcde1ac13d789, type: 2}
+  - {fileID: 11400000, guid: 700dc69344f260b41bbbc831a8417706, type: 2}
+  - {fileID: 11400000, guid: 61fc368cc3f8d654f905d4a1e27ffbf4, type: 2}
+  - {fileID: 11400000, guid: b9a43fd20fc4d284c874ded5c1b455cd, type: 2}
+  - {fileID: 11400000, guid: 018a4bddfa509f34e9dbe7f21321c918, type: 2}
+  - {fileID: 11400000, guid: 9f33f9757b130c54388f0cff91a3fcb7, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 3b7c1a9330d5ca143ac08333569777ee, type: 3}
+  ignoreTransition: 1

@@ -33,15 +33,28 @@ public class Fader : MonoBehaviour
 
     public void UnFadeWakeUp() 
     {
+        if (SituationHandler.dialogIndex == 0 || StoryHandler.situationIndex != 0)
+            return;
+
         StartCoroutine(WakeUp());
     }
 
     public void StartDialog() 
     {
+        if (SituationHandler.dialogIndex == 0 || StoryHandler.situationIndex != 0)
+            return;
+
         dialoger.SendNextDialog();
     }
 
-    public void BlockTexts() => handler.isFading = true;
+    public void BlockTexts()
+    {
+        if (SituationHandler.dialogIndex >= 0 || StoryHandler.situationIndex != 0)
+            return;
+
+        StoryHandler.isFading = true;
+        GetComponent<AudioSource>().Play();
+    }
     IEnumerator WakeUp() 
     {
         while (!IsClear)
@@ -50,7 +63,7 @@ public class Fader : MonoBehaviour
             yield return null;
         }
 
-        handler.isFading = false;
+        StoryHandler.isFading = false;
     }
 
 }

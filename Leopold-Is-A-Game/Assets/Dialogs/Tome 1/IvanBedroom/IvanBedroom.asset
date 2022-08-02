@@ -18,3 +18,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c0222a2c6a5b72b45aa4683a84164e7b, type: 2}
   - {fileID: 11400000, guid: 083855ee7b972484783174f761566161, type: 2}
   hasVisualEffect: 1
+  ambiantMusic: {fileID: 8300000, guid: 323162be7131a2346b1af5f4003fbcb7, type: 3}

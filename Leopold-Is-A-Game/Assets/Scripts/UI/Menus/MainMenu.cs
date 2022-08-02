@@ -7,9 +7,19 @@ public class MainMenu : MonoBehaviour
 {
     public Fader fader;
     public Fader fader2;
+
+    public PlayMenu playMenu;
+    public GameObject mainMenu = null;
+
+
     public void Play() 
     {
         StartCoroutine(PlayCoroutine());
+    }
+
+    public void PlayButton() 
+    {
+        
     }
 
     public void Quit()
@@ -32,32 +42,29 @@ public class MainMenu : MonoBehaviour
             yield return null;
         }
         
-        yield return new WaitForSeconds(.6f);
+        yield return new WaitForSeconds(.3f);
 
         while (!fader2.IsOpaque)
         {
             fader2.FadeIn();
             yield return null;
         }
-        
-        yield return new WaitForSeconds(1f);
-
-        Destroy(GameObject.FindGameObjectWithTag("MusicPlayer"));
-        SceneManager.LoadScene("Game");
+        yield return new WaitForSeconds(.3f);
+        mainMenu.SetActive(false);
+        playMenu.gameObject.SetActive(true);
+        playMenu.Open();
     }
 
     IEnumerator StartCoroutine() 
     {
-        while (!fader2.IsClear)
+        while (!fader2.IsClear && !fader.IsClear)
         {
             fader2.UnFade(3);
+            fader.UnFade(3);
             yield return null;
         }
     }
 
-
-    private void Start()
-    {
-        StartCoroutine(StartCoroutine());
-    }
+    public void FadeOutScreen() => StartCoroutine(StartCoroutine());
+    private void Start() => FadeOutScreen();
 }

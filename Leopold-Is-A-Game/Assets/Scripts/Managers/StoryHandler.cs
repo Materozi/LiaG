@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class StoryHandler : MonoBehaviour
 {
-    public Story story;
+    public static Story story;
 
     public SituationHandler situationHandler;
 
-    int situationIndex = -1;
+    public static int situationIndex = -1;
      
-    public bool isFading = false;
+    public static bool isFading = false;
 
     public Fader fader;
     public Animator animator;
@@ -24,12 +24,16 @@ public class StoryHandler : MonoBehaviour
     public void SendNextSituation() 
     {
         situationIndex++;
-        if (story.situations[situationIndex].hasVisualEffect)
+        if (story.situations[situationIndex].hasVisualEffect && SituationHandler.dialogIndex == -1)
         {
             animator.SetTrigger(story.situations[situationIndex].ToString());
             situationHandler.SetSituation(story.situations[situationIndex]);
         }
-        else 
+        else if (story.situations[situationIndex].ignoreTransition) 
+        {
+            situationHandler.SetSituation(story.situations[situationIndex]);
+        }
+        else
         {
             StartCoroutine(FadeScreen());
         }

@@ -16,5 +16,6 @@ MonoBehaviour:
   charaSide: 2
   chara: 3
   text: "La caf\xE9t\xE9ria \xE9tait particuli\xE8rement vide aujourd\u2019hui. Le
-    soleil illuminait la pi\xE8ce, et chauffait l\u2019air de ce vendredi. Ivan regardait
-    L\xE9opold."
+    soleil illuminait la pi\xE8ce, et chauffait l\u2019air de ce vendredi."
+  audioEffect: {fileID: 0}
+  hasVisualEffect: 0

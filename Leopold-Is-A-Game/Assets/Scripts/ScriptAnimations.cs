@@ -9,12 +9,12 @@ public class ScriptAnimations : MonoBehaviour
     public Animator anim;
     public void StartBlockText()
     {
-        handler.isFading = true;
-        disp.DisplayText(handler.situationHandler.situation.dialogs[handler.situationHandler.dialogIndex]);
+        StoryHandler.isFading = true;
+        disp.DisplayText(handler.situationHandler.situation.dialogs[SituationHandler.dialogIndex]);
     }
     public void EndBlockTexts() 
     {
-        handler.isFading = false;
+        StoryHandler.isFading = false;
         handler.situationHandler.SendNextDialog();
         anim.SetTrigger("leave");
     }

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Mateo-Outside
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: ee042851fc99349449116cfafd1319a3, type: 2}
+  - {fileID: 11400000, guid: 2ebf1549a2248ff4fa422835dec44c95, type: 2}
+  - {fileID: 11400000, guid: f17dcbbc5a4fb254b92b5066b163c08f, type: 2}
+  - {fileID: 11400000, guid: 3145ed89ab06f8d4da5ed476881b112e, type: 2}
+  - {fileID: 11400000, guid: d8e6c73110d0bbd4d9c003619f7b1883, type: 2}
+  - {fileID: 11400000, guid: 963c024017adfc64ebfb9c4d10271b1e, type: 2}
+  - {fileID: 11400000, guid: 620c51d60e555e04daa9c2fd9c513097, type: 2}
+  - {fileID: 11400000, guid: 003353db3444d3e4bb8857c948d22470, type: 2}
+  - {fileID: 11400000, guid: 185580811f136864d8951cd23b40f57b, type: 2}
+  - {fileID: 11400000, guid: 4e0eb6348679ba74eab2e292d45a8f2f, type: 2}
+  - {fileID: 11400000, guid: a8336c07d9464b741a9ebd5c36c50b80, type: 2}
+  - {fileID: 11400000, guid: 4e5d34cba99b86547922ffb1f1e0c083, type: 2}
+  - {fileID: 11400000, guid: f9c9c78be947bad49ab141bbc0843e98, type: 2}
+  - {fileID: 11400000, guid: dbd84afb28e935b4c8df3d31b53f18ae, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 50bdf04344c161848bd1874b9a19f5eb, type: 3}
+  ignoreTransition: 0

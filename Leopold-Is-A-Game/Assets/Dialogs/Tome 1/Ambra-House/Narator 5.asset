@@ -17,6 +17,6 @@ MonoBehaviour:
   chara: 3
   text: "Ivan se dirigea vers la cuisine, tr\xE9bucha sur un chat, avant d'arriver
     dans la petite pi\xE8ce. Il n'y avait rien de bien int\xE9ressant \xE0 l\u2019int\xE9rieur
-    : un four, un frigo, une armoire, Ma\xEBlle compl\xE8tement d\xE9fonc\xE9e, un
-    lave-vaisselle, et une poubelle. Rien qui puisse l'aider \xE0 retrouver Samy."
+    :"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0

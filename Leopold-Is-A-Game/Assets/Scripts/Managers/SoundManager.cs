@@ -26,6 +26,12 @@ public class SoundManager : MonoBehaviour
 
     }
 
+    public static void ChangeAmbiantSound(AudioClip clip)
+    {
+            if (instance.ambiantEmitter.clip != clip)
+            instance.StartCoroutine(FadeOutASource(instance.ambiantEmitter, clip));
+    }
+
     static IEnumerator FadeOutSource(AudioSource source) 
     {
             float currentTime = 0;
@@ -37,6 +43,21 @@ public class SoundManager : MonoBehaviour
                 yield return null;
             }
             yield break;
+    }
+
+    static IEnumerator FadeOutASource(AudioSource source, AudioClip clip)
+    {
+        float currentTime = 0;
+        float start = source.volume;
+        while (currentTime < .1f)
+        {
+            currentTime += Time.deltaTime;
+            source.volume = Mathf.Lerp(start, 0f, currentTime);
+            yield return null;
+        }
+        source.clip = clip;
+        source.Play();
+        yield return FadeInSource(source);
     }
 
     static IEnumerator PlayOneShotSoundAndRestartAmbiant(AudioSource source, AudioClip clip) 
@@ -54,7 +75,7 @@ public class SoundManager : MonoBehaviour
     {
         float currentTime = 0;
         float start = source.volume;
-        while (currentTime < 1f)
+        while (currentTime < .1f)
         {
             currentTime += Time.deltaTime;
             source.volume = Mathf.Lerp(start, .1f, currentTime);

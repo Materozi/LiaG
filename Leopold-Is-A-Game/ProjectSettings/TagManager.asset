@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - MusicPlayer
+  - SavePanel
   layers:
   - Default
   - TransparentFX

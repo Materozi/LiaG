@@ -53,11 +53,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f90021fe2a699e1478635c996cb686ab, type: 2}
   - {fileID: 11400000, guid: b439bdd17ffcfd14897cc8118da4bece, type: 2}
   - {fileID: 11400000, guid: 1c7b6ef4c5c2dbf499c5b638ba09b98b, type: 2}
-  - {fileID: 11400000, guid: 72a79f83043b5124ba688a995a549256, type: 2}
-  - {fileID: 11400000, guid: 4f3551d478a0cf3428ee84083634eaf8, type: 2}
-  - {fileID: 11400000, guid: 9af54a09251b0a842a3e9ecbb8373b70, type: 2}
-  - {fileID: 11400000, guid: c559c8bc527976d43abb1841719d3a03, type: 2}
-  - {fileID: 11400000, guid: e463d24b3c5426a47a1ba75ac20d7554, type: 2}
-  - {fileID: 11400000, guid: a3d76170fe130a94dbec84f00d11af3e, type: 2}
-  - {fileID: 11400000, guid: 18d36dfd5827ebf40af196e3a3beb37f, type: 2}
-  visualEffect: {fileID: 0}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 0}
+  ignoreTransition: 0

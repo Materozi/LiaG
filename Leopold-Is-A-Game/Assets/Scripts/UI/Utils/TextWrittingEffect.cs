@@ -48,13 +48,15 @@ public class TextWrittingEffect : MonoBehaviour
                 yield return null;
             }
 
+            if (StoryHandler.isFading)
+                yield return null;
+
             timeUntilNextCharacter = 0f;
             
             if (textIndex < fullText.Length) 
             {
                 textField.text += fullText[textIndex];
-                //if (textIndex % 7 == 0)
-                    sf.PlayRandomSound();    
+                sf.PlayRandomSound();    
             }
             
             textIndex++;

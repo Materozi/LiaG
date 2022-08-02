@@ -46,27 +46,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 394e442569c64c3429b35ea3614016d6, type: 2}
   - {fileID: 11400000, guid: 02a8de6f65cfc064ab46a17e268c694f, type: 2}
   - {fileID: 11400000, guid: 53d813c3fefa15243b09abf6957aab5b, type: 2}
-  - {fileID: 11400000, guid: 380d270f90f8d494bb121ce6535f2b70, type: 2}
-  - {fileID: 11400000, guid: 7001d32ead8278940822ee59c4587831, type: 2}
-  - {fileID: 11400000, guid: 4c7ded89ee47341478d94f8d49e45f02, type: 2}
-  - {fileID: 11400000, guid: 06b5d622aa5444944b33622be1b165ea, type: 2}
-  - {fileID: 11400000, guid: a268e9a947297dc4b895cf22f5b62eed, type: 2}
-  - {fileID: 11400000, guid: a6af3722d4f92ed4aab00b9666ee20c0, type: 2}
-  - {fileID: 11400000, guid: 0423bd03f6ad5c64ebcdc1bdfd140c0f, type: 2}
-  - {fileID: 11400000, guid: dee714978c8950841b4018f07b98f06e, type: 2}
-  - {fileID: 11400000, guid: 8990337369014734cb05b48060cc2952, type: 2}
-  - {fileID: 11400000, guid: 784bc177eebc37a44920b61eb40a1208, type: 2}
-  - {fileID: 11400000, guid: 42bb023e3a3a5eb43a0e9256c79ca6b2, type: 2}
-  - {fileID: 11400000, guid: 2376caa07cd7433438a7fdba0093d12e, type: 2}
-  - {fileID: 11400000, guid: 918020213c2ecf343b599fb0761ec170, type: 2}
-  - {fileID: 11400000, guid: f4d6db477668bc6419245637ec38ccde, type: 2}
-  - {fileID: 11400000, guid: b30f75dcefca4f94892d1530a733d9c5, type: 2}
-  - {fileID: 11400000, guid: a265af17a01c61244a7d49fb57b8c49a, type: 2}
-  - {fileID: 11400000, guid: de6a6f57821e39646a4aca2ef6c4d788, type: 2}
-  - {fileID: 11400000, guid: 4c7344d55f660ab45bb5536bed1f5dc4, type: 2}
-  - {fileID: 11400000, guid: 791308be43a46f24481a6fd8bbb8c685, type: 2}
-  - {fileID: 11400000, guid: 5b8e6383b7a267244b595ebbc9cbc2ec, type: 2}
-  - {fileID: 11400000, guid: e6bffcbad3176bf4f918a893a342029e, type: 2}
-  - {fileID: 11400000, guid: d10931038633e384b8dc14f3c5cf5f8f, type: 2}
-  - {fileID: 11400000, guid: 2e1c087dc0b25234087fc7fb56676cdd, type: 2}
-  visualEffect: {fileID: 0}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 0}
+  ignoreTransition: 0

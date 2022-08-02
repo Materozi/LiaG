@@ -14,15 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroud: {fileID: 21300000, guid: f5b0c532c94ed2540a7c7432aa504c23, type: 3}
   dialogs:
-  - {fileID: 11400000, guid: f4547d167023b6946b9fb2dd456bbea4, type: 2}
-  - {fileID: 11400000, guid: 681e7fa1576503d46ae957cbbdbd0766, type: 2}
-  - {fileID: 11400000, guid: c1f2bc9c08a3c2b40b045d28ab106325, type: 2}
-  - {fileID: 11400000, guid: ec7ea897eee91d948a99db7e65006177, type: 2}
-  - {fileID: 11400000, guid: a6ee182b0fea44b4d9b53eab239a2a5c, type: 2}
-  - {fileID: 11400000, guid: 03c94621fe58dfb4e914ca809d3d7061, type: 2}
-  - {fileID: 11400000, guid: e4722bba49e0037439cc9512b0aad05d, type: 2}
-  - {fileID: 11400000, guid: adfb065ba344a9c4ab2c37e535b1fe36, type: 2}
-  - {fileID: 11400000, guid: 5c7e51e1ce1eff34783c72c15c4376cd, type: 2}
   - {fileID: 11400000, guid: d917fd82ca137a54fbe32fb2f92f0d33, type: 2}
   - {fileID: 11400000, guid: c2d5b33dbd76f40498f89f06afaa0bc5, type: 2}
   - {fileID: 11400000, guid: 2f5263ac82a0bfc42bf196fa45eaa831, type: 2}
@@ -71,17 +62,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 66373d0cf06667a409830c5fc103a66f, type: 2}
   - {fileID: 11400000, guid: 89df29e49ac961d49bfea4c7575073a7, type: 2}
   - {fileID: 11400000, guid: 62d3a238a522e7446b541cc9cf875b5c, type: 2}
-  - {fileID: 11400000, guid: ee042851fc99349449116cfafd1319a3, type: 2}
-  - {fileID: 11400000, guid: 2ebf1549a2248ff4fa422835dec44c95, type: 2}
-  - {fileID: 11400000, guid: f17dcbbc5a4fb254b92b5066b163c08f, type: 2}
-  - {fileID: 11400000, guid: 3145ed89ab06f8d4da5ed476881b112e, type: 2}
-  - {fileID: 11400000, guid: d8e6c73110d0bbd4d9c003619f7b1883, type: 2}
-  - {fileID: 11400000, guid: 963c024017adfc64ebfb9c4d10271b1e, type: 2}
-  - {fileID: 11400000, guid: 620c51d60e555e04daa9c2fd9c513097, type: 2}
-  - {fileID: 11400000, guid: 003353db3444d3e4bb8857c948d22470, type: 2}
-  - {fileID: 11400000, guid: 185580811f136864d8951cd23b40f57b, type: 2}
-  - {fileID: 11400000, guid: 4e0eb6348679ba74eab2e292d45a8f2f, type: 2}
-  - {fileID: 11400000, guid: a8336c07d9464b741a9ebd5c36c50b80, type: 2}
-  - {fileID: 11400000, guid: 4e5d34cba99b86547922ffb1f1e0c083, type: 2}
-  - {fileID: 11400000, guid: f9c9c78be947bad49ab141bbc0843e98, type: 2}
-  - {fileID: 11400000, guid: dbd84afb28e935b4c8df3d31b53f18ae, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 21e2f90370925ba42a0dd7d5b4a36e6b, type: 3}
+  ignoreTransition: 0

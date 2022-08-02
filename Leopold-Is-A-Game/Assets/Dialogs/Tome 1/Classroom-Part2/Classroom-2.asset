@@ -30,10 +30,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d1c4e9baa1edff4884a9d1b8d07357a, type: 2}
   - {fileID: 11400000, guid: 8d02f8b788bf28b4f9d6f96015ee4c0d, type: 2}
   - {fileID: 11400000, guid: 14a461db6351b1d47880a6890737e42a, type: 2}
-  - {fileID: 11400000, guid: fb3467a1bf9e52c4b9b774ef224d6934, type: 2}
-  - {fileID: 11400000, guid: cdea8f525e23a7446a6bb330a3f1d86a, type: 2}
-  - {fileID: 11400000, guid: aa252825280de1b43970837900fbec17, type: 2}
-  - {fileID: 11400000, guid: 1bec0ea18165c4c419b6d0d83a5f5edf, type: 2}
-  - {fileID: 11400000, guid: 14b0cbc113f960b4e998713d92d51fe5, type: 2}
   hasVisualEffect: 0
-  ambiantMusic: {fileID: 0}
+  ambiantMusic: {fileID: 8300000, guid: 323162be7131a2346b1af5f4003fbcb7, type: 3}
+  ignoreTransition: 0
