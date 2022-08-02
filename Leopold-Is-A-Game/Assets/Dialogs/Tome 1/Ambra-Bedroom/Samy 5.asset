@@ -15,5 +15,6 @@ MonoBehaviour:
   charaState: 0
   charaSide: 0
   chara: 2
-  text: Et moi je sais que dans 4 lignes max je te baise !
+  text: Et moi je sais que dans 3 lignes max je te baise !
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0

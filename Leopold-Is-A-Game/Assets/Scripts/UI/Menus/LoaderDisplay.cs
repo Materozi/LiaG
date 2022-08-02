@@ -22,6 +22,7 @@ public class LoaderDisplay : MonoBehaviour
     public void ClickLoad() 
     {
         DataSaver.Load(value);
+        Destroy(GameObject.FindGameObjectWithTag("MusicPlayer"));
         SceneManager.LoadScene("Game");
     }
 }

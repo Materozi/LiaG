@@ -15,5 +15,6 @@ MonoBehaviour:
   charaState: 0
   charaSide: 1
   chara: 4
-  text: "Eh ! Attends, tu n\u2019as\u2026"
+  text: "\u2026pas pay\xE9."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0

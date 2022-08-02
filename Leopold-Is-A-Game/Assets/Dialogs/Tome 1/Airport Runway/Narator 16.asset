@@ -16,5 +16,6 @@ MonoBehaviour:
   charaSide: 2
   chara: 3
   text: "Ivan et L\xE9opold se s\xE9par\xE8rent du groupe. Ils enjamb\xE8rent le
-    cadavre d\u2019Antoine, et partirent dans un coin isol\xE9."
+    cadavre de Mat\xE9o, et partirent dans un coin isol\xE9."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0

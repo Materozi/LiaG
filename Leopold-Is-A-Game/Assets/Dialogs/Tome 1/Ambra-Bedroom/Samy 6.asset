@@ -15,8 +15,6 @@ MonoBehaviour:
   charaState: 0
   charaSide: 0
   chara: 2
-  text: "Tu sais, je trouve que c\u2019est vraiment courageux ce que vous faites
-    Ivan et toi, mais je dois te mettre en garde : Si vous poursuivez votre qu\xEAte,
-    vous allez \xEAtre confront\xE9s \xE0 des choses bien plus d\xE9rangeantes qu\u2019une
-    bande d\u2019ados d\xE9fonc\xE9s\u2026"
+  text: Du coup on baise ?
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
