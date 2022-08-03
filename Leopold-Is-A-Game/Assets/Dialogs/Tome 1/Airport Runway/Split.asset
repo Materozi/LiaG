@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Split
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: f030554ce447ae74bb2a31df48a1d1ef, type: 3}
+  dialogs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 0}
+  ignoreTransition: 0

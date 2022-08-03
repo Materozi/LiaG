@@ -16,4 +16,5 @@ MonoBehaviour:
   charaSide: 1
   chara: 8
   text: "Humff\u2026"
-  audioEffect: {fileID: 0}
+  audioEffect: {fileID: 8300000, guid: 49402f46a8dc7fc48958b8884dab837a, type: 3}
+  hasVisualEffect: 0

@@ -12,44 +12,21 @@ public class SituationHandler : MonoBehaviour
     public StoryHandler storyHandler;
     SituationDisplayer display;
 
-    List<Character> leftCharacters = new List<Character>();
-    List<Character> rightCharacters = new List<Character>();
-
     public static int dialogIndex = -1;
 
     private void Start()
     {
         display = GetComponent<SituationDisplayer>();
-        PopulateChibis();
     }
 
     public void SetSituation(Situation _situation) 
     {
         situation = _situation;
-        PopulateChibis();
         // play different sound if needed
         SoundManager.ChangeAmbiantSound(situation.ambiantMusic);
         display.DisplaySituation(situation);
         if (!situation.hasVisualEffect || dialogIndex != -1)
             SendNextDialog();
-    }
-
-    void PopulateChibis()
-    {
-        foreach (Dialog dialog in situation.dialogs)
-        {
-            if (dialog.charaSide == CharaSide.LEFT && !leftCharacters.Contains(dialog.chara))
-            {
-                leftCharacters.Add(dialog.chara);
-                continue;
-            }
-
-            if (dialog.charaSide == CharaSide.RIGHT && !rightCharacters.Contains(dialog.chara))
-            {
-                rightCharacters.Add(dialog.chara);
-                continue;
-            }
-        }
     }
 
     private void Update()
@@ -76,9 +53,16 @@ public class SituationHandler : MonoBehaviour
             storyHandler.SendNextSituation();
         }
         else 
-        {
             display.DisplayDialog(situation.dialogs[dialogIndex]);
-        }
+    }
+
+    public void SendPreviousDialog()
+    {
+        if (dialogIndex <= 0)
+            return;
+        
+        dialogIndex--;
+        display.DisplayDialog(situation.dialogs[dialogIndex]);
     }
 
     //return true if there is no buttons below the mouse

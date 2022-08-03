@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: RomanceMathis
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: f030554ce447ae74bb2a31df48a1d1ef, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 003827afd0bc49548956fb27eac81f27, type: 2}
+  - {fileID: 11400000, guid: cefe76a2ad359ab468b362ed50273767, type: 2}
+  - {fileID: 11400000, guid: f28d0c81b9ed46443b9ed9a38ca3d1c7, type: 2}
+  - {fileID: 11400000, guid: aa6828a654c979e4ca54b2f0aa9fa957, type: 2}
+  - {fileID: 11400000, guid: 0bc8fed63c3e2624793df141b2df1ef9, type: 2}
+  - {fileID: 11400000, guid: d734a066fba39f8458582d3619ff1a87, type: 2}
+  - {fileID: 11400000, guid: a090d850d46161644b92d87ec41cb7dd, type: 2}
+  - {fileID: 11400000, guid: f82489325d694a44693e0eeecb6d426c, type: 2}
+  - {fileID: 11400000, guid: cb8e3431c872bd348bdf378d5d5587f7, type: 2}
+  - {fileID: 11400000, guid: 7770b4972f1ab7740933a095edaad8bb, type: 2}
+  - {fileID: 11400000, guid: ec3d05622daea864fb2b3340a63cda58, type: 2}
+  - {fileID: 11400000, guid: 5ac52ff01359af34a8e9891a3baffe46, type: 2}
+  - {fileID: 11400000, guid: e3128e8888d5a9d45ba1a8347a5c77d9, type: 2}
+  - {fileID: 11400000, guid: bd73fb368686d0d4c91d9f4493b1949d, type: 2}
+  - {fileID: 11400000, guid: 0915053a8b830e645bda9107ee6c5a0a, type: 2}
+  - {fileID: 11400000, guid: 49099e208c7dec94ebe2f11325f87418, type: 2}
+  - {fileID: 11400000, guid: d81e99c6541e6a041a7196eae53eed38, type: 2}
+  - {fileID: 11400000, guid: 53abf97af7c65de44ac00737333cea4d, type: 2}
+  - {fileID: 11400000, guid: 3caee774c0acf4f4493751644146b8a8, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 6667e69ed9a5a8b4b87d7c78f4ffd293, type: 3}
+  ignoreTransition: 1

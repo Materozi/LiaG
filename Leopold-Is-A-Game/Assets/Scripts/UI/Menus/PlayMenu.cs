@@ -21,6 +21,29 @@ public class PlayMenu : MonoBehaviour
         StartCoroutine(BackCoroutine());
     }
 
+    public void OnEnable()
+    {
+        //check for finished tomes to unlock the next ones
+        if (!PlayerPrefs.HasKey("backTome"))
+            return;
+
+        if (PlayerPrefs.GetString("backTome") == "Tome1 (Story)" && !PlayerPrefs.HasKey("tome2Unlocked")) 
+        {
+            PlayerPrefs.SetInt("tome2Unlocked", 1);
+            //play animation
+        }
+        if (PlayerPrefs.GetString("backTome") == "Tome2 (Story)" && !PlayerPrefs.HasKey("tome3Unlocked"))
+        {
+            PlayerPrefs.SetInt("tome3Unlocked", 1);
+            //play animation
+        }
+        if (PlayerPrefs.GetString("backTome") == "Tome3 (Story)" && !PlayerPrefs.HasKey("credits"))
+        {
+            PlayerPrefs.SetInt("credits", 1);
+            //play animation
+        }
+    }
+
     public void TomeButton(int index)
     {
         StoryHandler.story = Resources.Load<Story>("Tomes/"+((Tomes)index).ToString());

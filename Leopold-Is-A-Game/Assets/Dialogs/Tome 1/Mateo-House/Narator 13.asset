@@ -15,7 +15,9 @@ MonoBehaviour:
   charaState: 0
   charaSide: 2
   chara: 3
-  text: "Gr\xE2ce au super GPS de Samy \xE0 seulement 19\u20AC99* *prix hors taxes.
-    Voir conditions en magasin, ils arriv\xE8rent jusque chez Ambra. Ils toqu\xE8rent,
+  text: "Gr\xE2ce au super GPS de Samy \xE0 seulement 19\u20AC99 (prix hors taxes.
+    Voir conditions en magasin), ils arriv\xE8rent jusque chez Ambra. Ils toqu\xE8rent,
     et elle vint leur ouvrir."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

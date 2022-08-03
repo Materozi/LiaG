@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: RoundRoom-Part2
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: 4a31a761874dcd94ba43887e2c7e69ed, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 26a5cfdd81e87e94fa102f9960bbb1bb, type: 2}
+  - {fileID: 11400000, guid: a1596ae0cc9b3a245a15fe58dfcd87fc, type: 2}
+  - {fileID: 11400000, guid: d91579166e3d3db46b3a9967f07b2f96, type: 2}
+  - {fileID: 11400000, guid: 9d46ca706c028bb45a732fd2a130c410, type: 2}
+  - {fileID: 11400000, guid: abcc1847193ccb74db06229910d24fcd, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: cfca1ab7e68863941a6b3a3573e3ad69, type: 3}
+  ignoreTransition: 1

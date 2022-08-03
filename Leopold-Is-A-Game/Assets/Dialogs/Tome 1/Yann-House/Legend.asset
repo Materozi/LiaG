@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Legend
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: efe10029ab409f949ad7ef3a71ee683d, type: 2}
+  - {fileID: 11400000, guid: 96fa54b792533d44d99cb0be402b2365, type: 2}
+  - {fileID: 11400000, guid: 56653e98ee8597f4abb2ed4c14585f63, type: 2}
+  - {fileID: 11400000, guid: 4002a4f4e3709ad41a921b256220dd26, type: 2}
+  - {fileID: 11400000, guid: bc953fec6c5fc1f4492a27bc8a275dc1, type: 2}
+  - {fileID: 11400000, guid: 662b951addcf43a4e815b6b6d0466c27, type: 2}
+  - {fileID: 11400000, guid: 8faa209d048f0c040a2d8b9ea7f36c93, type: 2}
+  - {fileID: 11400000, guid: c35a2ba8f1f4f0a4584db5228049e17a, type: 2}
+  - {fileID: 11400000, guid: 23980ff6bd0ec2d43a0cf61d8c8c29ed, type: 2}
+  - {fileID: 11400000, guid: 7ea23a2950bbc4146b7ab5c716a936a6, type: 2}
+  - {fileID: 11400000, guid: 43bb41e229924974f99a2e5f1e19a362, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 13a3c270cd2f9e3458e6eec28b6e02fe, type: 3}
+  ignoreTransition: 1

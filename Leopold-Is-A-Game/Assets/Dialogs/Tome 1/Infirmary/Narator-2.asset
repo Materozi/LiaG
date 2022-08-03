@@ -16,6 +16,6 @@ MonoBehaviour:
   charaSide: 2
   chara: 3
   text: "Elle paraissait l\xE9g\xE8rement \xE9nerv\xE9e, ce qui lui donnait en fait
-    un air adorablement mignon. Voyant qu\u2019ils ne pourraient rien en tirer, ils
-    sortirent du lyc\xE9e."
+    un air adorablement mignon."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0

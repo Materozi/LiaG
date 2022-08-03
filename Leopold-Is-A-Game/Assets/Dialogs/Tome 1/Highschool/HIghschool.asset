@@ -37,3 +37,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 92c7aa5a36b066e4a9f550124213793c, type: 2}
   - {fileID: 11400000, guid: 7f341931f7cb91f4aa09c0f8fde64457, type: 2}
   - {fileID: 11400000, guid: eb4a4d55a92d8c547b78878b55cef054, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 50bdf04344c161848bd1874b9a19f5eb, type: 3}
+  ignoreTransition: 0

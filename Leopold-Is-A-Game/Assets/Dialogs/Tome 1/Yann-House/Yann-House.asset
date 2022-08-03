@@ -28,31 +28,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: df168dfa5a38284429b5f0e89974b7f6, type: 2}
   - {fileID: 11400000, guid: 1cd5256aac5b6bd4a83d960fe1828e3f, type: 2}
   - {fileID: 11400000, guid: 90d48ed38f27a8d4880e70034a06256f, type: 2}
-  - {fileID: 11400000, guid: efe10029ab409f949ad7ef3a71ee683d, type: 2}
-  - {fileID: 11400000, guid: 96fa54b792533d44d99cb0be402b2365, type: 2}
-  - {fileID: 11400000, guid: 56653e98ee8597f4abb2ed4c14585f63, type: 2}
-  - {fileID: 11400000, guid: 4002a4f4e3709ad41a921b256220dd26, type: 2}
-  - {fileID: 11400000, guid: bc953fec6c5fc1f4492a27bc8a275dc1, type: 2}
-  - {fileID: 11400000, guid: 662b951addcf43a4e815b6b6d0466c27, type: 2}
-  - {fileID: 11400000, guid: 8faa209d048f0c040a2d8b9ea7f36c93, type: 2}
-  - {fileID: 11400000, guid: c35a2ba8f1f4f0a4584db5228049e17a, type: 2}
-  - {fileID: 11400000, guid: 23980ff6bd0ec2d43a0cf61d8c8c29ed, type: 2}
-  - {fileID: 11400000, guid: 7ea23a2950bbc4146b7ab5c716a936a6, type: 2}
-  - {fileID: 11400000, guid: 43bb41e229924974f99a2e5f1e19a362, type: 2}
-  - {fileID: 11400000, guid: e0c50b1f5671f894894340bed3b12987, type: 2}
-  - {fileID: 11400000, guid: cd782af0b7be936448d0ef43d2b21075, type: 2}
-  - {fileID: 11400000, guid: d1bba58ee4bdf6a44a3ecb914921389e, type: 2}
-  - {fileID: 11400000, guid: 150d501dbc245db43a1b6a9d58aec481, type: 2}
-  - {fileID: 11400000, guid: 119608d7f9171ee41a1940cb6f48300c, type: 2}
-  - {fileID: 11400000, guid: a40164a566f7bd642a51a1016a645303, type: 2}
-  - {fileID: 11400000, guid: d20b1ef6dee782344a1a44cef3af473a, type: 2}
-  - {fileID: 11400000, guid: e981196f8dd0e7042b7e7cba42307742, type: 2}
-  - {fileID: 11400000, guid: de1702f109e39404ca4c6f84ce74e010, type: 2}
-  - {fileID: 11400000, guid: 19a8aaff22ef26c438be27069c73972c, type: 2}
-  - {fileID: 11400000, guid: 85d706dd63954d34d9d30f22715f938e, type: 2}
-  - {fileID: 11400000, guid: f90021fe2a699e1478635c996cb686ab, type: 2}
-  - {fileID: 11400000, guid: b439bdd17ffcfd14897cc8118da4bece, type: 2}
-  - {fileID: 11400000, guid: 1c7b6ef4c5c2dbf499c5b638ba09b98b, type: 2}
   hasVisualEffect: 0
-  ambiantMusic: {fileID: 0}
+  ambiantMusic: {fileID: 8300000, guid: 50bdf04344c161848bd1874b9a19f5eb, type: 3}
   ignoreTransition: 0

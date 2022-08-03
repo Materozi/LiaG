@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: WaitingForMateo
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 21300000, guid: f030554ce447ae74bb2a31df48a1d1ef, type: 3}
+  dialogs:
+  - {fileID: 11400000, guid: 823a20a31b17ab946a331bff5a8538cf, type: 2}
+  - {fileID: 11400000, guid: dd50232c1a951404db02aaecddf63681, type: 2}
+  - {fileID: 11400000, guid: 990244b025ef5ad449ba2ce29ad57a6d, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 0}
+  ignoreTransition: 1

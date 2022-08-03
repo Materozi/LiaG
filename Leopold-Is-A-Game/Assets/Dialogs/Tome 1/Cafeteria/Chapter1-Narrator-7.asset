@@ -18,3 +18,4 @@ MonoBehaviour:
   text: "La sonnerie. L\xE9opold se tut le temps qu\u2019elle passe."
   audioEffect: {fileID: 8300000, guid: e2679b1940d13f04ea8fd51d662ec447, type: 3}
   hasVisualEffect: 1
+  cutAmbiant: 1
