@@ -85,13 +85,16 @@ public class Fader : MonoBehaviour
     {
         GetComponent<AudioSource>().clip = gifle;
         GetComponent<AudioSource>().Play();
+
         while (!IsOpaque) 
         {
             FadeInEx(9f);
             yield return null;
         }
-        yield return new WaitForSeconds(.1f);
+
+        yield return new WaitForSeconds(.05f);
         dialoger.SendNextDialog();
+
         while (!IsClear)
         {
             UnFadeEx(6f);

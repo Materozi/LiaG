@@ -8,6 +8,9 @@ public class SaveDisplayer : MonoBehaviour
 
     private void OnEnable()
     {
+        foreach (Transform t in transform)
+            Destroy(t.gameObject);
+        
         ParseSaves();    
     }
 

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroud: {fileID: 21300000, guid: 2ebd9a90f20c6234185a68de4bc8009e, type: 3}
   dialogs:
+  - {fileID: 11400000, guid: 2d1d68adb728c7b4a8e7071fd1444537, type: 2}
   - {fileID: 11400000, guid: cdd2c7c9acf83cb40a8af067cc5b1687, type: 2}
   - {fileID: 11400000, guid: aa0f56a38bbeb6d4d90f1ebb2fbed190, type: 2}
   - {fileID: 11400000, guid: 14242031d8fd5c041aa8bc142acce562, type: 2}

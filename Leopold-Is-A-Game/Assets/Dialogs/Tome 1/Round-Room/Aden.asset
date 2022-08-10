@@ -17,4 +17,6 @@ MonoBehaviour:
   chara: 16
   text: "Chef ! Chef ! On subit une attaque ! Une \xE9norme cr\xE9ature attaque l\u2019a\xE9roport
     !"
-  audioEffect: {fileID: 0}
+  audioEffect: {fileID: 8300000, guid: 99ae98ba1f9714945b60448a12b41c6a, type: 3}
+  hasVisualEffect: 0
+  cutAmbiant: 0

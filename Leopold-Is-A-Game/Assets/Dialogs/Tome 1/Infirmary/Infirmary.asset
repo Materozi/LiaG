@@ -23,11 +23,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a82fa328297602249a23a52a690b216e, type: 2}
   - {fileID: 11400000, guid: c0b9e553a46562e43a497fa20eb74684, type: 2}
   - {fileID: 11400000, guid: 5085699836cb3d64493cadf479369720, type: 2}
-  - {fileID: 11400000, guid: 9f4c6faa798a43a49baa1276bad0949d, type: 2}
-  - {fileID: 11400000, guid: bd87b6bcca7fdcb4d90c429099e3f2d9, type: 2}
-  - {fileID: 11400000, guid: 68f765891db77c24dacf9785c31103fc, type: 2}
-  - {fileID: 11400000, guid: acf9040039553ec429cbf1958d35227f, type: 2}
-  - {fileID: 11400000, guid: 276671a0ead6f8a4688d872a879c5ed9, type: 2}
-  - {fileID: 11400000, guid: e378ba6bd49275445a55bb619fb0782a, type: 2}
-  - {fileID: 11400000, guid: 831426cf2ffb77545949801caddc5a92, type: 2}
-  - {fileID: 11400000, guid: f89fe6eff47ee404e80f80f5c9589139, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: 323162be7131a2346b1af5f4003fbcb7, type: 3}
+  ignoreTransition: 0

@@ -17,3 +17,5 @@ MonoBehaviour:
   chara: 0
   text: "O\xF9 est ce que tu as eu toutes ces informations ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

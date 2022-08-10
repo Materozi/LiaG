@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StoryHandler : MonoBehaviour
 {
@@ -18,13 +18,23 @@ public class StoryHandler : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log(story.ToString());
         SendNextSituation();
     }
 
     public void SendNextSituation() 
     {
         situationIndex++;
-        if (story.situations[situationIndex].hasVisualEffect && SituationHandler.dialogIndex == -1)
+        //end the tome depending on which one was it
+        if (situationIndex >= story.situations.Count) 
+        {
+            PlayerPrefs.SetString("backTome", story.ToString());
+            //Goto MainMenu
+            //Fuck this shit i'm out
+            SceneManager.LoadScene("MainMenu");
+        }
+
+        if (situationIndex >= 0 && story.situations[situationIndex].hasVisualEffect && SituationHandler.dialogIndex == -1)
         {
             animator.SetTrigger(story.situations[situationIndex].ToString());
             situationHandler.SetSituation(story.situations[situationIndex]);

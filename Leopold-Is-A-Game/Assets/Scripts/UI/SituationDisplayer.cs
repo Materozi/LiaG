@@ -45,7 +45,7 @@ public class SituationDisplayer : MonoBehaviour
         textWriting.InitializeWriting(dialog.text);
 
         if (dialog.audioEffect)
-            SoundManager.PlayDialogSound(dialog.audioEffect);
+            SoundManager.PlayDialogSound(dialog.audioEffect, dialog.cutAmbiant);
     }
     public void DisplayDialog(Dialog dialog)
     {

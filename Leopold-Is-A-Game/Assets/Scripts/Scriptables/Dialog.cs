@@ -52,4 +52,5 @@ public class Dialog : ScriptableObject
     public string     text;
     public AudioClip  audioEffect;
     public bool       hasVisualEffect;
+    public bool       cutAmbiant;
 };
