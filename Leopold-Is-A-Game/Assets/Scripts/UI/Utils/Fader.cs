@@ -17,6 +17,9 @@ public class Fader : MonoBehaviour
     public SituationHandler dialoger;
     public StoryHandler handler;
 
+    public AudioClip radio;
+    public AudioClip gifle;
+    public AudioClip gunshot;
     private void Awake()
     {
         fader = GetComponent<Image>();
@@ -27,6 +30,12 @@ public class Fader : MonoBehaviour
 
     // Opaque to Clear
     public void UnFade(float ratio = 1f) => fader.color = new Color(0f, 0f, 0f, fader.color.a - (ratio * Time.deltaTime));
+
+    // Clear to Opaque
+    public void FadeInEx(float ratio = 1f) => fader.color = new Color(1f, 1f, 1f, fader.color.a + (ratio * Time.deltaTime));
+
+    // Opaque to Clear
+    public void UnFadeEx(float ratio = 1f) => fader.color = new Color(1f, 1f, 1f, fader.color.a - (ratio * Time.deltaTime));
 
     public void SetOpaque() => fader.color = new Color(0f, 0f, 0f, 1f);
     public void SetClear() => fader.color = new Color(0f, 0f, 0f, 0f);
@@ -53,6 +62,7 @@ public class Fader : MonoBehaviour
             return;
 
         StoryHandler.isFading = true;
+        GetComponent<AudioSource>().clip = radio;
         GetComponent<AudioSource>().Play();
     }
     IEnumerator WakeUp() 
@@ -66,4 +76,28 @@ public class Fader : MonoBehaviour
         StoryHandler.isFading = false;
     }
 
+    public void Flash() 
+    {
+        StartCoroutine(FlashC(gifle));
+    }
+
+    IEnumerator FlashC(AudioClip clip)
+    {
+        GetComponent<AudioSource>().clip = gifle;
+        GetComponent<AudioSource>().Play();
+        while (!IsOpaque) 
+        {
+            FadeInEx(9f);
+            yield return null;
+        }
+        yield return new WaitForSeconds(.1f);
+        dialoger.SendNextDialog();
+        while (!IsClear)
+        {
+            UnFadeEx(6f);
+            yield return null;
+        }
+
+        StoryHandler.isFading = false;
+    }
 }

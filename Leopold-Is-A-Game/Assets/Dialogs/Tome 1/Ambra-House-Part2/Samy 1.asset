@@ -15,5 +15,7 @@ MonoBehaviour:
   charaState: 0
   charaSide: 0
   chara: 2
-  text: "Trop long \xE0\u2026 a\xEFe ! \xE0 expliquer\u2026"
+  text: "Trop long \xE0\u2026 a\xEFe ! \xC0 expliquer\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

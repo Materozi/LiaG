@@ -15,6 +15,8 @@ MonoBehaviour:
   charaState: 0
   charaSide: 0
   chara: 1
-  text: "sophiane en a s\xFBrement appel\xE9\u2026 Mais il faut tenir jusqu\u2019\xE0
+  text: "Sophiane en a s\xFBrement appel\xE9\u2026 Mais il faut tenir jusqu\u2019\xE0
     leur arriv\xE9e !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0
