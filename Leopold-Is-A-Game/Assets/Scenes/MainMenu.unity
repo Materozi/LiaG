@@ -606,7 +606,6 @@ GameObject:
   - component: {fileID: 402095561}
   - component: {fileID: 402095560}
   - component: {fileID: 402095559}
-  - component: {fileID: 402095562}
   m_Layer: 5
   m_Name: Tome3
   m_TagString: Untagged
@@ -729,19 +728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402095557}
   m_CullTransparentMesh: 1
---- !u!114 &402095562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402095557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e80c8324ad344d488ddb608156db154, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: tome3Unlocked
 --- !u!1 &455842741
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +875,6 @@ GameObject:
   - component: {fileID: 473117594}
   - component: {fileID: 473117593}
   - component: {fileID: 473117592}
-  - component: {fileID: 473117595}
   m_Layer: 5
   m_Name: Tome2
   m_TagString: Untagged
@@ -1012,19 +997,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473117590}
   m_CullTransparentMesh: 1
---- !u!114 &473117595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473117590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e80c8324ad344d488ddb608156db154, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: tome2Unlocked
 --- !u!1 &743384110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2882,6 +2854,9 @@ MonoBehaviour:
   fader: {fileID: 0}
   dialoger: {fileID: 0}
   handler: {fileID: 0}
+  radio: {fileID: 0}
+  gifle: {fileID: 0}
+  gunshot: {fileID: 0}
 --- !u!114 &1763972278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,6 +3084,9 @@ MonoBehaviour:
   fader: {fileID: 0}
   dialoger: {fileID: 0}
   handler: {fileID: 0}
+  radio: {fileID: 0}
+  gifle: {fileID: 0}
+  gunshot: {fileID: 0}
 --- !u!114 &1826642695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3159,7 +3137,6 @@ GameObject:
   - component: {fileID: 1853476730}
   - component: {fileID: 1853476729}
   - component: {fileID: 1853476728}
-  - component: {fileID: 1853476731}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -3282,19 +3259,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853476726}
   m_CullTransparentMesh: 1
---- !u!114 &1853476731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853476726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e80c8324ad344d488ddb608156db154, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: credits
 --- !u!1 &1938349515
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,6 +3351,9 @@ MonoBehaviour:
   fader: {fileID: 0}
   dialoger: {fileID: 0}
   handler: {fileID: 0}
+  radio: {fileID: 0}
+  gifle: {fileID: 0}
+  gunshot: {fileID: 0}
 --- !u!1 &2071105720
 GameObject:
   m_ObjectHideFlags: 0

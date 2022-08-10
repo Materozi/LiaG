@@ -33,12 +33,12 @@ public class SituationDisplayer : MonoBehaviour
         if (dialog.charaSide == CharaSide.LEFT)
         {
             leftChibi.color = Fader.Opaque;
-            leftChibi.sprite = Characters.GetCharacterSprite(dialog.chara);
+            leftChibi.sprite = Characters.GetCharacterSprite(dialog.chara, dialog.charaState);
         }
         else if (dialog.charaSide == CharaSide.RIGHT)
         {
             rightChibi.color = Fader.Opaque;
-            rightChibi.sprite = Characters.GetCharacterSprite(dialog.chara);
+            rightChibi.sprite = Characters.GetCharacterSprite(dialog.chara, dialog.charaState);
         }
 
         charaName.text = Characters.GetCharacterName(dialog.chara);

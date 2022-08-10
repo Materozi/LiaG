@@ -13,12 +13,12 @@ public class Characters
         }
     }
 
-    public static Sprite GetCharacterSprite(Character chara)
+    public static Sprite GetCharacterSprite(Character chara, CharaState state)
     {
         switch (chara)
         {
             case Character.NARATOR: return null;
-            default: return Resources.Load<Sprite>("Chibis/" + chara.ToString());
+            default: return Resources.Load<Sprite>("Chibis/" + chara.ToString() +'_'+ state.ToString());
         }
     }
 }

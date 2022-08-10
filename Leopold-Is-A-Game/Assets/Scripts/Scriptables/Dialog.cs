@@ -3,12 +3,12 @@ using UnityEngine;
 public enum CharaState 
 {
     IDLE,
-    TALKING,
     HAPPY,
+    SCARED,
     SAD,
-    SURPRISED,
-
-    NONE,
+    ANGRY,
+    LOVELY,
+    SADIC,
 };
 
 public enum Character 

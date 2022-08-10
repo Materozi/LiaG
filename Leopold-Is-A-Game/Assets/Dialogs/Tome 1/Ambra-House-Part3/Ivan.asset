@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 1
   chara: 0
   text: "Est-ce que tu te rends compte \xE0 quel point tu es un trou du cul ? Esp\xE8ce
     de sous race de merde !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

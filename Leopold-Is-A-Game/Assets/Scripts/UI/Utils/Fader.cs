@@ -78,10 +78,10 @@ public class Fader : MonoBehaviour
 
     public void Flash() 
     {
-        StartCoroutine(FlashC(gifle));
+        StartCoroutine(FlashC());
     }
 
-    IEnumerator FlashC(AudioClip clip)
+    IEnumerator FlashC()
     {
         GetComponent<AudioSource>().clip = gifle;
         GetComponent<AudioSource>().Play();
