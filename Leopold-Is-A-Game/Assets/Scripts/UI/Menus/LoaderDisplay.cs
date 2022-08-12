@@ -24,5 +24,7 @@ public class LoaderDisplay : MonoBehaviour
         DataSaver.Load(value);
         Destroy(GameObject.FindGameObjectWithTag("MusicPlayer"));
         SceneManager.LoadScene("Game");
+        Time.timeScale = 1f;
+        PauseMenu.isGamePaused = false;
     }
 }

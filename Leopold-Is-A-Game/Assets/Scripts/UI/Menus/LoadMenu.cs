@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveMenu : MonoBehaviour
+public class LoadMenu : MonoBehaviour
 {
+
     public GameObject buttons;
 
     Animator animator;
@@ -11,16 +12,15 @@ public class SaveMenu : MonoBehaviour
     void Start() => animator = GetComponent<Animator>();
 
 
-    public void Open()
+    public void OpenLoads()
     {
-        ScreenCapture.CaptureScreenshot("tempSC.png");
-        animator.SetTrigger("Open");
         buttons.SetActive(true);
-        Time.timeScale = 0f;
+        animator.SetTrigger("Open");
     }
-    public void Close() => animator.SetTrigger("Close");
 
-    public void Disable()
+    public void CloseLoad() => animator.SetTrigger("Close");
+
+    private void Disable()
     {
         Time.timeScale = 1f;
         buttons.SetActive(false);
