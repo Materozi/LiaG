@@ -7,6 +7,8 @@ public class ScriptAnimations : MonoBehaviour
     public StoryHandler handler    = null;
     public SituationDisplayer disp = null;
     public Animator anim;
+    public Fader fader = null;
+
     public void StartBlockText()
     {
         StoryHandler.isFading = true;
@@ -17,5 +19,10 @@ public class ScriptAnimations : MonoBehaviour
         StoryHandler.isFading = false;
         handler.situationHandler.SendNextDialog();
         anim.SetTrigger("leave");
+    }
+
+    public void Shotgun() 
+    {
+        fader.Gunshot();
     }
 }

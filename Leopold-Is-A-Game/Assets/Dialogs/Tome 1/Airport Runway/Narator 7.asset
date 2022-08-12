@@ -17,5 +17,5 @@ MonoBehaviour:
   chara: 3
   text: 
   audioEffect: {fileID: 8300000, guid: 5a946fa0c560f9244986cd4cd9105829, type: 3}
-  hasVisualEffect: 0
+  hasVisualEffect: 1
   cutAmbiant: 0

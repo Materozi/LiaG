@@ -47,5 +47,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 02a8de6f65cfc064ab46a17e268c694f, type: 2}
   - {fileID: 11400000, guid: 53d813c3fefa15243b09abf6957aab5b, type: 2}
   hasVisualEffect: 0
-  ambiantMusic: {fileID: 0}
+  ambiantMusic: {fileID: 8300000, guid: d4c27aaaa4e115d4d9045874c1c48176, type: 3}
   ignoreTransition: 0

@@ -76,11 +76,10 @@ public class Fader : MonoBehaviour
         StoryHandler.isFading = false;
     }
 
-    public void Flash() 
+    public void Gunshot()
     {
-        StartCoroutine(FlashC());
+        StartCoroutine(GunshotC());
     }
-
     IEnumerator FlashC()
     {
         GetComponent<AudioSource>().clip = gifle;
@@ -98,6 +97,29 @@ public class Fader : MonoBehaviour
         while (!IsClear)
         {
             UnFadeEx(6f);
+            yield return null;
+        }
+
+        StoryHandler.isFading = false;
+    }
+
+    IEnumerator GunshotC()
+    {
+        GetComponent<AudioSource>().clip = gunshot;
+        GetComponent<AudioSource>().Play();
+
+        while (!IsOpaque)
+        {
+            FadeInEx(10f);
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(.05f);
+        dialoger.SendNextDialog();
+
+        while (!IsClear)
+        {
+            UnFadeEx(7f);
             yield return null;
         }
 
