@@ -9,7 +9,8 @@ public class PauseMenu : MonoBehaviour
 
     Animator animator;
     public Fader fader;
-    
+
+    public GameObject options;
 
     private void Awake()
     {
@@ -39,6 +40,11 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = true;
         animator.SetTrigger("Pause");
         Time.timeScale = 0f;
+    }
+
+    public void Options() 
+    {
+        options.SetActive(true);
     }
 
     public void MainMenuButton() 

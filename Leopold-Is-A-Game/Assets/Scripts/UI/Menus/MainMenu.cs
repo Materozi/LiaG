@@ -9,17 +9,15 @@ public class MainMenu : MonoBehaviour
     public Fader fader2;
 
     public PlayMenu playMenu;
+    public GameObject optionsMenu;
+
     public GameObject mainMenu = null;
+    
 
-
+    
     public void Play() 
     {
         StartCoroutine(PlayCoroutine());
-    }
-
-    public void PlayButton() 
-    {
-        
     }
 
     public void Quit()
@@ -32,8 +30,9 @@ public class MainMenu : MonoBehaviour
 
     public void Options() 
     {
-        // display options menu
+        optionsMenu.SetActive(true);
     }
+
     IEnumerator PlayCoroutine() 
     {
         while (!fader.IsOpaque)
@@ -66,5 +65,10 @@ public class MainMenu : MonoBehaviour
     }
 
     public void FadeOutScreen() => StartCoroutine(StartCoroutine());
-    private void Start() => FadeOutScreen();
+    
+    private void Start() 
+    {
+       FadeOutScreen();
+       OptionsMenu.LoadOptions();
+    }
 }
