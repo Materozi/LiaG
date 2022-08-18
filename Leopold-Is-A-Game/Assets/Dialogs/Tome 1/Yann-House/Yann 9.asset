@@ -16,7 +16,9 @@ MonoBehaviour:
   charaSide: 1
   chara: 15
   text: "C\u2019est tout simplement pour te prot\xE9ger Ivan. Et tu n\u2019avais
-    rien remarqu\xE9 ? A ton avis, pourquoi il n\u2019arr\xEAtait pas de crier \xAB
-    SOPHIE \xBB ? Mais maintenant que tu sais tout, tu vas devoir choisir un camp,
-    et nous connaissons tous ton go\xFBt prononc\xE9 pour le furry\u2026"
+    rien remarqu\xE9 ? \xC0 ton avis, pourquoi il n\u2019arr\xEAtait pas de crier
+    \xAB SOPHIE \xBB ? Mais maintenant que tu sais tout, tu vas devoir choisir un
+    camp, et nous connaissons tous ton go\xFBt prononc\xE9 pour le furry\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0
