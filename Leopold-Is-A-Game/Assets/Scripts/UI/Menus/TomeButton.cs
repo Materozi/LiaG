@@ -7,8 +7,13 @@ public class TomeButton : MonoBehaviour
 {
 
     public string key = "";
+    public string tomeName = "";
+    public string extension = "";
     public void OnEnable()
     {
-        GetComponent<Button>().interactable = PlayerPrefs.HasKey(key);
+        bool value = PlayerPrefs.HasKey(key);
+        GetComponent<Button>().interactable = value;
+        extension = value ? "unlocked" : "locked";
+        GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/"+tomeName+"_"+extension);
     }
 }

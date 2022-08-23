@@ -33,8 +33,7 @@ public class StoryHandler : MonoBehaviour
             //Fuck this shit i'm out
             SceneManager.LoadScene("MainMenu");
         }
-
-        if (situationIndex >= 0 && story.situations[situationIndex].hasVisualEffect && SituationHandler.dialogIndex == -1)
+        else if (situationIndex >= 0 && story.situations[situationIndex].hasVisualEffect && SituationHandler.dialogIndex == -1)
         {
             animator.SetTrigger(story.situations[situationIndex].ToString());
             situationHandler.SetSituation(story.situations[situationIndex]);
