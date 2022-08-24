@@ -9,6 +9,7 @@ public enum CharaState
     ANGRY,
     LOVELY,
     SADIC,
+    BORED,
 };
 
 public enum Character 
@@ -34,6 +35,27 @@ public enum Character
     AUGUSTIN,
     ANTOINE,
     MATHIS,
+    ABDALLAH,
+    ALAN,
+    AMBRE,
+    ESTEBAN,
+    FARAH,
+    GENIE,
+    GUILLAUME,
+    HAPE,
+    JONATHAN,
+    JUAN,
+    KENY,
+    KIKI,
+    LEOPOLD_HAT,
+    LUDIVINE,
+    PAULINE,
+    RECEPTIONNISTE,
+    SOLDAT,
+    SOLDAT_MAROC,
+    THIBAULT,
+    TV,
+    VALENTIN,
 };
 
 public enum CharaSide 
