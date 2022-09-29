@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Alexis 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 5
   charaSide: 1
   chara: 11
   text: "En vrai, je m\u2019en fiche un peu moi\u2026 J\u2019aime pas vraiment \xE7a
     d\u2019ailleurs, mais\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

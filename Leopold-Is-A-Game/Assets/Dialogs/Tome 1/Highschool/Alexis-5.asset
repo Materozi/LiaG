@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Alexis-5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 2
   charaSide: 1
   chara: 11
   text: "Je vois pas du tout de quoi vous parlez les gars\u2026 Et puis franchement
     c\u2019est pas comme si il \xE9tait \xE0 la t\xEAte d\u2019une soci\xE9t\xE9
     secr\xE8te ou quoi."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

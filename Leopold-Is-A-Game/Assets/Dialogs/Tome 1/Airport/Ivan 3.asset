@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 5
   charaSide: 0
   chara: 0
   text: "J\u2019ai r\xE9fl\xE9chi \xE0 toute cette histoire, et du coup je me disais\u2026
     On devrait choisir quel camp ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

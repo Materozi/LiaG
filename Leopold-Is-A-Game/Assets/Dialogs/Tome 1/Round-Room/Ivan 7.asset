@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 7
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 3
   charaSide: 0
   chara: 0
   text: "Et pendant tout ce temps, je n\u2019ai\u2026 Je n\u2019ai pas arr\xEAt\xE9
     de penser \xE0 toi. Et pas juste parce que je voulais te revoir L\xE9opold, mais
     parce que je\u2026 Je\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

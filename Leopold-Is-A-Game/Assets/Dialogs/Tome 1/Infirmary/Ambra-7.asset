@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ambra-7
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 7
   text: "\xC9coutez, il est rentr\xE9 chez lui, il reviendra lundi, maintenant retournez
     en cours."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

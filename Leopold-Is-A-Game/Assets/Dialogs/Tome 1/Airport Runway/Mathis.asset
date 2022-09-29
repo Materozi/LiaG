@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mathis
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 20
   text: "Pour toi \xE7a sera le docteur Friedmann ! Et oui, je suis l\xE0 pour te
     remettre \xE0 ta place petite merde !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

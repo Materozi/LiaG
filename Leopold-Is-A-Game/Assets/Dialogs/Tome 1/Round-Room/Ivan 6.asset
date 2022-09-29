@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 6
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 0
   text: "Ne dit rien ! Je n\u2019ai pas fini ! Tu n\u2019as aucune id\xE9e de ce
@@ -20,3 +20,5 @@ MonoBehaviour:
     a appris plein de choses sur beaucoup de personnes, et on a m\xEAme sauv\xE9
     une gamine qui \xE9tait chez Mat\xE9o !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

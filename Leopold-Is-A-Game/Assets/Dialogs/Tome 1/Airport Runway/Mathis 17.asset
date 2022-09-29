@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mathis 17
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 20
   text: "Eh bien sache que\u2026 Je t\u2019aime aussi ! Je veux vivre avec toi putain
     !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

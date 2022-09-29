@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Yann 8
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 15
   text: "Vous n\u2019avez toujours pas compris ? L\xE9opold est l\u2019empereur du
     Sophisme. S\u2019il a \xE9t\xE9 rappel\xE9, c\u2019est qu\u2019une grande guerre
     se pr\xE9pare."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

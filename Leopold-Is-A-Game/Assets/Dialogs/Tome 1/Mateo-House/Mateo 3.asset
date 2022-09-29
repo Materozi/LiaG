@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 1
   chara: 12
   text: Pourquoi vous venez chez moi, juste pour faire une putain de recherche sur
     Internet ?
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

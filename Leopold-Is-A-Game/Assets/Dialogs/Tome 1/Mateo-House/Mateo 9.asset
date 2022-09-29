@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo 9
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 12
   text: "Alors comme \xE7a vous voulez voler mes amies\u2026 Vous n\u2019avez pas
     de c\u0153ur !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

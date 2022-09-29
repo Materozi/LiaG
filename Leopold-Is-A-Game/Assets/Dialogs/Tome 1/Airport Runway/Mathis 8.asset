@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mathis 8
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 20
   text: "Et bien \xE0 pr\xE9sent, elle est l\xE0 ! Devant vous ! Et si vous voulez
     tout savoir\u2026 Elle vient d\xE9truire notre dernier obstacle !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

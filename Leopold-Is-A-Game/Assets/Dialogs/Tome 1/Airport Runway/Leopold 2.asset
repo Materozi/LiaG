@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Leopold 2
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 0
-  chara: 1
+  chara: 33
   text: "Et t\u2019as perdu ton t\xE9l\xE9phone ou t\u2019avais juste envie d\u2019exploser
     des fa\xE7ades ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

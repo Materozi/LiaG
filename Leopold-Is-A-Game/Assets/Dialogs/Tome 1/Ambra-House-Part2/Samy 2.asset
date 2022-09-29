@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 2
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 3
   charaSide: 0
   chara: 2
   text: "T\u2019en fait pas, j\u2019ai r\xE9ussi \xE0 avoir des informations. Pour
     l\u2019instant dors, et je t\u2019explique \xE7a demain. Si tu me cherches, je
     serai dans la voiture."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

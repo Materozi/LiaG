@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo 1
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 1
   chara: 12
   text: "Xydo\xE9 ! Viens ici toute suite ! Tu as \xE9t\xE9 tr\xE8s vilaine\u2026
     tu vas recevoir une punition comme tu n\u2019en as jamais eu\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

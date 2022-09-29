@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo 1
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 2
   charaSide: 1
   chara: 12
   text: "Bah\u2026 Je suis un peu occup\xE9 et\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 2
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 0
   chara: 2
   text: "Si L\xE9opold a disparu c\u2019est parce qu\u2019apparemment il avait des
     obligations. Mais genre, de grosses, GROSSES obligations. Pour tirer \xE7a au
     clair, on va devoir coop\xE9rer avec un type un peu sp\xE9cial."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

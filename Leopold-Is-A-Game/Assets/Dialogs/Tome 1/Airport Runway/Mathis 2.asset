@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mathis 2
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 20
   text: "Les deux. Mais si je suis l\xE0, c\u2019est pour une troisi\xE8me raison.
@@ -21,3 +21,5 @@ MonoBehaviour:
     Nous avons un pouvoir plus puissant que jamais et ni toi, ni tes sophistes de
     merde n\u2019allez pouvoir arr\xEAter \xE7a !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

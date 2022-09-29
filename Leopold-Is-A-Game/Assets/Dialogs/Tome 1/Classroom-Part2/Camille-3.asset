@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Camille-3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 4
   text: "Va falloir vous d\xE9p\xEAcher ! Il nous reste moins d\u2019un mois pour\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

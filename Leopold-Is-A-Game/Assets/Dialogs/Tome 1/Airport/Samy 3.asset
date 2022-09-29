@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 2
   charaSide: 1
   chara: 2
   text: "Bah le Sophisme \xE9videmment ! S\xE9rieux, la d\xE9cadence de ceux qui
     se branlent sur du hentai\u2026 Et puis, tu vas pas trahir L\xE9opold quand m\xEAme
     ?  "
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

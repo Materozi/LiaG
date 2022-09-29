@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy-4
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 0
   chara: 2
   text: "Si m\xEAme sa s\u0153ur ne veut rien nous dire, il va falloir le trouver
     autre part que IRL. Et je sais qui va nous aider\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

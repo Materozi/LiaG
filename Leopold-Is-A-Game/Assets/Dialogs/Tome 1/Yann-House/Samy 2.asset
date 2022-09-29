@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 2
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 2
   text: "C\u2019est une blague ? Je me suis pas cass\xE9 le cul \xE0 voyager \xE0
     travers toute la Seine-et-Marne pour avoir un bisou sur la joue \xE0 la fin !
     J\u2019ai pris un gode dans le cul merde !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

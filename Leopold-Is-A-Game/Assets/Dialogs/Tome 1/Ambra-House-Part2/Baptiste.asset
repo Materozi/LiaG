@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Baptiste
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 1
   chara: 6
   text: "Mais t\u2019as raison Ivan ! Faut pas laisser tomber tes potes. Et si L\xE9opold
     est sur la lune, mais va le chercher gros\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

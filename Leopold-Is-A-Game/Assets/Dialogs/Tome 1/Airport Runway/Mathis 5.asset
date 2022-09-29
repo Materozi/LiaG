@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mathis 5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 20
   text: "Notre espion disais-je, a trouv\xE9 un bon plan, et a rachet\xE9 le brevet
     d\u2019une invention incroyable ! On peut tous remercier Alan, de nous avoir
     c\xE9d\xE9 sa cr\xE9ation pour seulement 2\u20AC !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

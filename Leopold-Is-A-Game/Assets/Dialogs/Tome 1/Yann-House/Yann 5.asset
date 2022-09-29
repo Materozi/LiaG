@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Yann 5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 15
   text: "Attends ! J\u2019y arrive\u2026 Un jour, la majorit\xE9 des gens d\xE9cid\xE8rent
@@ -20,3 +20,5 @@ MonoBehaviour:
     commenc\xE9 \xE0 opprimer ceux qui en consommait r\xE9guli\xE8rement. C\u2019est
     alors que sorti de nulle part, un homme s\u2019est lev\xE9 !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

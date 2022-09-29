@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 12
   text: "Je tiens \xE0 vous f\xE9liciter ! Vous avez r\xE9ussi \xE0 stopper mon bras
     droit, mais sachez que je suis gaucher ! M\xEAme si Amlaetxhis tombe, le hentai
     ne tombera pas tant que je serai l\xE0 !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

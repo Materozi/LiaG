@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Antoine 1
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 19
   text: "Eh ! Mais qu\u2019est-ce que\u2026 AH ! \xC7a colle !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

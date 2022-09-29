@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: Engueulade
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: 3068672e5501b484ea11446c132fafc0, type: 2}
+  - {fileID: 11400000, guid: f2ee84d93c5a6244ea6cbe11430e922b, type: 2}
+  - {fileID: 11400000, guid: a634024be5e49264dae4eb949c1daddc, type: 2}
+  - {fileID: 11400000, guid: 509d96c7ba2a92c40a4c8ba117e37780, type: 2}
+  - {fileID: 11400000, guid: 5516f836739ab584fb0572063a5dd3fe, type: 2}
+  - {fileID: 11400000, guid: 8d8ab0a1130a4d9429bb8472df3a909b, type: 2}
+  - {fileID: 11400000, guid: f6dcc54c88467cf4daea26b30cfd185a, type: 2}
+  - {fileID: 11400000, guid: 5afac001c006cae42b5fbe61bcd4fa60, type: 2}
+  - {fileID: 11400000, guid: fa533e36d530993409e385985914ba3f, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: d4c27aaaa4e115d4d9045874c1c48176, type: 3}
+  ignoreTransition: 0

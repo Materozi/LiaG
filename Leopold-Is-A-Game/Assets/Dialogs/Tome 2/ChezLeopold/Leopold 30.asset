@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Leopold 30
+  m_EditorClassIdentifier: 
+  charaState: 1
+  charaSide: 0
+  chara: 33
+  text: "Ne dites rien, vous vous \xEAtes rem\xE9mor\xE9 nos exploits pass\xE9s,
+    nos aventures, et vous vous \xEAtes dit que vous ne pouviez pas me laisser courir
+    des risques seul apr\xE8s tous ce qu\u2019on a v\xE9cu ensemble ?"
+  audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Romain 7
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 1
   chara: 5
   text: "\xC0 partir de l\xE0, vous ne pourrez pas revenir en arri\xE8re. Vous ne
     m\u2019avez jamais vu, compris ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

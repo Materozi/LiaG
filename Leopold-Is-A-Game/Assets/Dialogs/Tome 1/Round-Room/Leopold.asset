@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Leopold
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 2
   charaSide: 1
-  chara: 1
+  chara: 33
   text: "Ivan ? Mais qu\u2019es que tu f\u2026 Non attend je sais. Tu es venu me
     chercher hein ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Romain
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 5
   text: "Bah je devais faire un truc ici, donc j\u2019en ai profit\xE9 pour faire
     une petite pause et\u2026 Mais attendez\u2026 Qu\u2019est-ce que vous vous faites
     ici ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

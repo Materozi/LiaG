@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: AvantMateo
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: f2b0f9132fc9aa44ca5b9bdf150d8d99, type: 2}
+  - {fileID: 11400000, guid: 843ce90bc2a40334894656e30cf2c72f, type: 2}
+  - {fileID: 11400000, guid: 218e46b96c781774282012f5df7d5bf9, type: 2}
+  - {fileID: 11400000, guid: 8cbc6d07ba9bb034d951dca1cafdf587, type: 2}
+  - {fileID: 11400000, guid: 684ce43cbdc388a469764ea38d17e6d4, type: 2}
+  - {fileID: 11400000, guid: 919ec2b5b239baa42948ec58eb4cc22e, type: 2}
+  - {fileID: 11400000, guid: aef0c0004b0956743a69a017f167c71b, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: f77f9c663d629464ba33307ef61a1be3, type: 3}
+  ignoreTransition: 0

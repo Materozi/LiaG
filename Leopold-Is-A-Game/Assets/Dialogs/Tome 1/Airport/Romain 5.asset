@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Romain 5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 5
   text: "Oui, oui tout \xE0 fait. Vas-y joue, nous on t\u2019\xE9coute !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

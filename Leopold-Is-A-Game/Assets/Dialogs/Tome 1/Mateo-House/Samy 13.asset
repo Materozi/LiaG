@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 13
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 0
   chara: 2
   text: "Par contre la nuit tombe et j\u2019aimerais bien dormir avant. Faut qu\u2019on
     trouve quelque part o\xF9 dormir, et je peux pas vous h\xE9berger, y a ma grande
     s\u0153ur qui squatte chez moi."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

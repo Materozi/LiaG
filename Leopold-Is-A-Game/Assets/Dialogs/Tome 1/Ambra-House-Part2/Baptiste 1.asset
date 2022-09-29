@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Baptiste 1
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 5
   charaSide: 1
   chara: 6
   text: "Regarde, perso si Romain \xE9tait en danger, je r\xE9fl\xE9chirais m\xEAme
     pas ! c\u2019est la seule personne qui comprend mon amour pour la musique\u2026  "
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

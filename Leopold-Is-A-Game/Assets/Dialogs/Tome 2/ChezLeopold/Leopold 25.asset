@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
+  m_Name: Leopold 25
+  m_EditorClassIdentifier: 
+  charaState: 2
+  charaSide: 0
+  chara: 1
+  text: "Allo ? Sophiane ? \xC7a fait longtemps ouais, qu\u2019est-ce qu\u2026 attends
+    parle moins vite je comprends pas. Quoi ? C\u2019est quoi ce bordel ? Bah, peu
+    importe je\u2026 Oui je sais que c\u2019\xE9tait y\u2019a longtemps, mais j\u2019ai
+    confiance t\u2019inqui\xE8tes pas. Bon ok, \xE0 plus."
+  audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ambra 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 7
   text: "Ah ok. Je peux ouvrir la fen\xEAtre si tu veux ! "
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

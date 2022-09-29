@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Alexis-6
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 11
   text: "Faut vous d\xE9tendre hein, pas la peine de le stalker sur les r\xE9seaux
     sociaux \xE0 chaque fois qu\u2019il \xE0 la chiasse ! Bon par contre, je suis
     un peu press\xE9 je dois\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

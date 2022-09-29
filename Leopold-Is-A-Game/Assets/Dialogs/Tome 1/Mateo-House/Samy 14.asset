@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 14
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 2
   text: "Mec ! T\u2019es un grand malade ! T\u2019as vraiment besoin de te faire
     soigner ! Si tu ne nous laisses pas partir tout de suite, tu vas pouvoir pr\xE9parer
     les deux sucres !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

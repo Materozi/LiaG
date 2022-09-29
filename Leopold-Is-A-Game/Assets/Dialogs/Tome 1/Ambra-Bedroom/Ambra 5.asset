@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ambra 5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 7
   text: "Tu sais, je trouve que c\u2019est vraiment courageux ce que vous faites
@@ -20,3 +20,5 @@ MonoBehaviour:
     vous allez \xEAtre confront\xE9s \xE0 des choses bien plus d\xE9rangeantes qu\u2019une
     bande d\u2019ados d\xE9fonc\xE9s\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

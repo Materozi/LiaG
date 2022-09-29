@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Yann 7
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 15
   text: "C\u2019est ainsi que fut fond\xE9 l\u2019Amlaetxhis. \xC9videmment, pour
@@ -20,3 +20,5 @@ MonoBehaviour:
     Ce mouvement avait pour but de promouvoir les relations r\xE9elles, afin d\u2019\xE9viter
     que la population mondiale se transforme en otaku nolife."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 1
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 0
   text: "On a besoin de toi pour retrouver L\xE9opold ! Et pas la peine de faire
     \xAB Gneugneu je sais pas, j\u2019ai rien \xE0 voir avec \xE7a \xBB !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

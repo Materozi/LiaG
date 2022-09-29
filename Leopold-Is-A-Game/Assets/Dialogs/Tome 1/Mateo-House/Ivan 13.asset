@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 13
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 5
   charaSide: 0
   chara: 0
   text: "On a ramass\xE9 une petite fille, Samy et moi, et on cherche un logement
     pour la nuit. Tu pourrais nous accueillir ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

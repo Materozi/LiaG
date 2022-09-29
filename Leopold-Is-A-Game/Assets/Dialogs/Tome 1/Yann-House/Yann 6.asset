@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Yann 6
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 1
   charaSide: 1
   chara: 15
   text: "Il d\xE9cida de fonder un parti politique virtuel, \xE0 l\u2019aide de quelques
@@ -20,3 +20,5 @@ MonoBehaviour:
     plus d\u2019ampleur qu\u2019il ne l\u2019avait imagin\xE9, et il d\xE9cida de
     retourner dans l\u2019ombre, laissant ses amis au pouvoir."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

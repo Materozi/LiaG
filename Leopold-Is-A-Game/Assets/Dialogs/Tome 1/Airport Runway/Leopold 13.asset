@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Leopold 13
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
-  chara: 1
+  chara: 33
   text: "\xC9videmment ! C\u2019est pas un monstre sortit d\u2019un esprit tordu
     qui va me faire peur ! En parlant de \xE7a\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

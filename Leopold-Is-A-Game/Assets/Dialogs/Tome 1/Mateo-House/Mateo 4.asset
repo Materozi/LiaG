@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Mateo 4
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 6
   charaSide: 1
   chara: 12
   text: "Je sais pas comment je dois le prendre\u2026 Mais bon je veux bien vous
     aider. Je consulte r\xE9guli\xE8rement un forum d\u2019\xE9lite, o\xF9 nous \xE9tudions
     avec s\xE9rieux ce genre de probl\xE8mes\u2026"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

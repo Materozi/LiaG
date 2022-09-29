@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan-3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 4
   charaSide: 0
   chara: 0
   text: "Bon \xE9coute Camille\u2026 l\xE0 tu vois, on a une urgence. Pourquoi tu
     n\u2019en parlerais pas \xE0 Mat\xE9o ?"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

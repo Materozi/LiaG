@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Leopold 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 2
   charaSide: 1
-  chara: 1
+  chara: 33
   text: "Je savais que j\u2019aurais d\xFB me m\xE9fier de ce type\u2026 Il est beaucoup
     trop calme pour \xEAtre honn\xEAte. Bien, maintenant que tu es l\xE0, laisse-moi
     te pr\xE9senter l\u2019ensemble du gouvernement. Ici, voici notre informaticien..."
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64948d5cd00b4a418206fd26c8874a7, type: 3}
+  m_Name: AppelLeopold
+  m_EditorClassIdentifier: 
+  backgroud: {fileID: 0}
+  dialogs:
+  - {fileID: 11400000, guid: 00420c60883b7ab4fa23d46636e3b934, type: 2}
+  - {fileID: 11400000, guid: 72ce0473404e58244834b3629ad9db43, type: 2}
+  - {fileID: 11400000, guid: 81b04f440c2884945ab88c127bfe1475, type: 2}
+  - {fileID: 11400000, guid: 150bdcb6394fc054f8092020f36fd0de, type: 2}
+  - {fileID: 11400000, guid: 014dd4cc47f4d66468f6a0384dd17bbd, type: 2}
+  - {fileID: 11400000, guid: 5c661e9919be92749a7bc0734c4fad85, type: 2}
+  - {fileID: 11400000, guid: 093605a5e2c69ba408ffbe45777cf884, type: 2}
+  - {fileID: 11400000, guid: 981d1c757d3bebb4daf4ec85cd2bb60c, type: 2}
+  - {fileID: 11400000, guid: 755884d6d0c4e3145b9623a5a2fd8a22, type: 2}
+  - {fileID: 11400000, guid: 545d5f3c90af2434bb08243fe2ae6087, type: 2}
+  hasVisualEffect: 0
+  ambiantMusic: {fileID: 8300000, guid: f77f9c663d629464ba33307ef61a1be3, type: 3}
+  ignoreTransition: 1

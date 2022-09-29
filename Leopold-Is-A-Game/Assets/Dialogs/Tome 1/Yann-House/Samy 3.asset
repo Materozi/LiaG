@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Samy 3
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 5
   charaSide: 0
   chara: 2
   text: "Au fond, c\u2019\xE9tait assez agr\xE9able au d\xE9but, mais y a eu ce moment
     o\xF9 elle a commenc\xE9 \xE0 mettre\u2026 Attends, pourquoi tu me demandes \xE7a
     ??"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0

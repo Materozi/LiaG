@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd55854b81a64764fb14bc77e44f658f, type: 3}
   m_Name: Ivan 5
   m_EditorClassIdentifier: 
-  charaState: 0
+  charaState: 3
   charaSide: 0
   chara: 0
   text: "Comment \xE7a \xAB quoi \xBB ? C\u2019est tout ? Tu te barres, je passe
@@ -20,3 +20,5 @@ MonoBehaviour:
     pas mal de tes histoires de complots anti hentai, tu m\u2019as manqu\xE9 L\xE9opold
     !"
   audioEffect: {fileID: 0}
+  hasVisualEffect: 0
+  cutAmbiant: 0
